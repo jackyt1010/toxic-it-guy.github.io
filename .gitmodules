@@ -1,0 +1,12 @@
+[submodule "themes/zozo"]
+	path = themes/zozo
+	url = https://github.com/nicolgo/hugo-theme-zozo.git
+[submodule "theme/casper"]
+	path = theme/casper
+	url = https://github.com/vjeantet/hugo-theme-casper
+[submodule "themes/casper"]
+	path = themes/casper
+	url = https://github.com/vjeantet/hugo-theme-casper
+[submodule "themes/cleanwhite"]
+	path = themes/cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git

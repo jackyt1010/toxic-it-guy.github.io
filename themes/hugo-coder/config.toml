@@ -1,0 +1,19 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Jacky Tang's Blog"
+theme = "m10c"
+paginate = 2
+Copyright = "© Jacky Tang 2022"
+canonifyurls = true
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/Toxic-IT-guy"
+[[params.social]]
+  icon = "linkedin"
+  name = "My LinkedIn"
+  url = "https://www.linkedin.com/in/jacky-tang-06642aa6/"
+[module]
+[module.hugoVersion]
+min = "0.77.0"
