@@ -7,7 +7,7 @@ categories: ["Computer Science"]
 tags:
     - Competitive Programming
     - C++
-URL: "/algorithm-competition-advanced-guide-ch1/"
+URL: "/2022/08/24/algorithm-competition-advanced-guide-ch1/"
 ---
 ![Coverpage2](/img/algorithm-competition-advanced-guide-ch1/cover.jpg)
 
