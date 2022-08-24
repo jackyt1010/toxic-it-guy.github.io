@@ -6,7 +6,7 @@ author:  Jacky Tang
 categories: [ "Physics"]
 tags:
     - Physics
-URL: "/landau-mechanics-ch1/"
+URL: "/2022/08/24/landau-mechanics-ch1/"
 ---
 ![Coverpage](/img/landau-mechanics-ch1/landau.jpg)
  ## 1. A generalized coordinate
