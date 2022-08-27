@@ -9,7 +9,7 @@ tags:
 URL: "/2022/08/28/landau-mechanics-ch2/"
 ---
 ![Coverpage](/img/landau-mechanics-ch1/landau.jpg)
- ##6 Energy
+ ## 6. Energy
   $x + y$
  
 
