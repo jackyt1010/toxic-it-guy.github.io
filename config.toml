@@ -107,7 +107,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   [[params.addtional_menus]]
   title =  "CV"
-  href =  "https://mega.nz/file/lCEDjapJ#1WyhmUR3RdBvdKsysI4nvN73x8RYpYtoW_c3hXl_guc"
+  href =  "https://mega.nz/file/1DVj3ChJ#HU3mMDg_POlHfah2JSZAHqGYyUHD6Gybqj5Xa2gferQ"
 
 [outputFormats.Algolia]
 baseName = "algolia"
