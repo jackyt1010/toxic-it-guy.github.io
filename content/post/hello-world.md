@@ -1,13 +1,15 @@
 ---
 layout:     post 
 title:      "Welcome to Jacky Tang's Blog"
-subtitle:   "Hello World, Hello Blog"
-date:       2022-08-23
+subtitle:   ""
+description: ""
+published: true
+date:       2022-08-22
 author:     "Jacky Tang"
-URL: "/2017/11/03/hello-world/"
-image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
+URL: "/2022/08/22/hello-world/"
 ---
 
+<!--more-->
 > “Yeah It's on. ”
 
 

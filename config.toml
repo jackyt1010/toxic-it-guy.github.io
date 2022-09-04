@@ -6,7 +6,7 @@ languageCode = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
+paginate = 8 #frontpage pagination
 hasCJKLanguage = true
 
 [outputs]
@@ -29,7 +29,7 @@ home = ["HTML", "RSS", "Algolia"]
   leancloud_app_key = ""
 
   # algolia site search
-  algolia_search = true
+  algolia_search = false
   algolia_appId = ""
   algolia_indexName = ""
   algolia_apiKey = ""
@@ -107,11 +107,12 @@ home = ["HTML", "RSS", "Algolia"]
 
   [[params.addtional_menus]]
   title =  "CV"
-  href =  "https://mega.nz/file/1DVj3ChJ#HU3mMDg_POlHfah2JSZAHqGYyUHD6Gybqj5Xa2gferQ"
+  href = "TangManKit_CV.pdf"
 
 [outputFormats.Algolia]
 baseName = "algolia"
-isPlainText = true
+#isPlainText = true
+isPlainText = false
 mediaType = "application/json"
 notAlternative = true
 

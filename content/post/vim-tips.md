@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Vim Tips"
+title:      "Vim Tips and tricks"
 subtitle:   ""
-description: "Vim Tips and tricks"
+description: ""
 date:       2022-08-24 
 image:      "/img/2018-02-09-vim-tips/matrix.jpg"
 published: true
@@ -12,9 +12,7 @@ tags:
 URL: "/2022/08/24/vim-tips/"
 categories: [ Computer Science ]
 ---
-## vim graphical cheat sheet
 
-![](//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg)
 <!--more-->
 ## Vim Jumps
 

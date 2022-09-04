@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Competitive Programming on Jacky Tang&#39;s Blog</title>
+    <link>//localhost:1313/tags/competitive-programming/</link>
+    <description>Recent content in Competitive Programming on Jacky Tang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Competitive Programming [Algorithm Competition Advanced Guide] Chapter 1 Basic Algorithm Exercises</title>
+      <link>//localhost:1313/2022/08/24/algorithm-competition-advanced-guide-ch1/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/2022/08/24/algorithm-competition-advanced-guide-ch1/</guid>
+      <description>POJ1995 (Bitwise Operation) https://vjudge.net/problem/POJ-1995
+#include &amp;lt;cstdio&amp;gt;#define ll long longusing namespace std;ll mod;ll ans;int Z,M,H;ll power(ll a, ll n, ll p){int ans = 1%p;for(; n; n&amp;gt;&amp;gt;=1){if(n &amp;amp; 1) ans = (long long) ans * a % p;a = (long long) a * a % p;}return ans;}int main(){cin&amp;gt;&amp;gt;Z;while(Z--){ans=0;cin&amp;gt;&amp;gt;M&amp;gt;&amp;gt;H;mod=M;for(int i=0;i&amp;lt;H;i++){ ll a,b;cin&amp;gt;&amp;gt;a&amp;gt;&amp;gt;b;ans+=power(a, b, mod);}ans = power(ans, 1, mod);cout &amp;lt;&amp;lt; ans &amp;lt;&amp;lt; endl;}} CH0102/AcWing90 (Bitwise Operation) https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

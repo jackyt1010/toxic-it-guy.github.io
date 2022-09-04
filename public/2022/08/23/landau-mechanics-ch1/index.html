@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Jacky Tang&#39;s Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="//localhost:1313//img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="//localhost:1313//img/home-bg-jeep.jpg" />
+    
+
+    
+    <meta name="title" content="Self-Education-Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion" />
+    <meta property="og:title" content="Self-Education-Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion" />
+    <meta property="twitter:title" content="Self-Education-Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion" />
+    
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="" />
+    <meta property="twitter:description" content="" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Self-Education-Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion | </title>
+
+    <link rel="canonical" href="/2022/08/23/landau-mechanics-ch1/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jacky Tang&#39;s Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/computer-science">computer-science</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/physics">physics</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="https://mega.nz/file/lCEDjapJ#1WyhmUR3RdBvdKsysI4nvN73x8RYpYtoW_c3hXl_guc">CV</a></li>
+                    
+
+                    
+		    <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/physics" title="Physics">
+                            Physics
+                        </a>
+                        
+                    </div>
+                    <h1>Self-Education-Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                 Jacky Tang
+                             
+                            on 
+                            Tuesday, August 23, 2022
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>
+  <img src="/img/landau-mechanics-ch1/landau.jpg" alt="Coverpage">
+
+</p>
+<h2 id="1-a-generalized-coordinate">1. A generalized coordinate</h2>
+<p>In mechanics, objects of negligible size in motion are usually treated as mass points, its position is determined by r(x, y, z), abbreviated as r.</p>
+<p>Its velocity and acceleration are</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/1.png" alt="公式">
+
+</p>
+<p>For a system, if it contains N particles, in order to uniquely determine the positions of all particles, 3N coordinates are required, which are called degrees of freedom.</p>
+<p>In a system with a degree of freedom s, the coordinates of a particle in a system are abstracted, called generalized coordinates</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/2.png" alt="公式">
+
+</p>
+<p>These are limited to traditional coordinates such as x, y, z, but also angles, distances (polar coordinates, spherical coordinates). Correspondingly, the generalized velocity can also be defined:</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/3.png" alt="公式">
+
+</p>
+<h2 id="2--the-principle-of-least-action">2.  The principle of least action</h2>
+<p>With 
+  <img src="/img/landau-mechanics-ch1/4.png" alt="公式">
+
+, a system 
+  <img src="/img/landau-mechanics-ch1/5.png" alt="公式">
+
+ can be determined, L is called Lagrangian function, but its form is not arbitrary and needs to meet the following conditions:</p>
+<p>At time t1 and t2, the movement of the system during this time period makes the integral  
+  <img src="/img/landau-mechanics-ch1/6.svg" alt="公式">
+
+ get the minimum value, this integral is called the action, and this requirement is called the principle of least action 
+  <img src="/img/landau-mechanics-ch1/7.svg" alt="公式">
+
+</p>
+<p>So, we can deduce L that satisfies the principle of least action. What properties will it have?</p>
+<p>For convenience, it is assumed that the system has only one degree of freedom, that is, a one-dimensional problem, and only one coordinate q(t) needs to be known. If the motion q(t) is the function that minimizes the action S, then adding any non-zero function to q to get the 
+  <img src="/img/landau-mechanics-ch1/8.svg" alt="公式">
+
+, the action S cannot be minimized. 
+  <img src="/img/landau-mechanics-ch1/9.svg" alt="公式">
+
+Of course, in order to ensure that the particle is still in its original position at time t1 and t2, the boundary conditions must be satisfied</p>
+<p>S thus increases by an amount 
+  <img src="/img/landau-mechanics-ch1/10.svg" alt="公式">
+
+</p>
+<p>By Expansion and keeping only the first-order terms, we get</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/11.svg" alt="公式">
+
+</p>
+<p>According to the definition of 
+  <img src="/img/landau-mechanics-ch1/12.svg" alt="公式">
+
+, we then get 
+  <img src="/img/landau-mechanics-ch1/13.svg" alt="公式">
+
+  and substitute it into  
+  <img src="/img/landau-mechanics-ch1/14.svg" alt="公式">
+
+</p>
+<p>Now we need to deal with the second term, which happens to be integral by parts: 
+  <img src="/img/landau-mechanics-ch1/15.svg" alt="公式">
+
+</p>
+<p>Due to the existence of the boundary condition 
+  <img src="/img/landau-mechanics-ch1/16.svg" alt="公式">
+
+, the first term must be 0, and only the second term is retained, so the change of action is</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/17.svg" alt="公式">
+
+</p>
+<p>Since 
+  <img src="/img/landau-mechanics-ch1/18.svg" alt="公式">
+
+ is an arbitrary function, for this integral to hold, the interior must always be 0, so
+  <img src="/img/landau-mechanics-ch1/19.svg" alt="公式">
+
+ , this equation is the differential equation of motion of the system, also known as the Lagrange equation For systems with multiple degrees of freedom s, the equations become a system of equations 
+  <img src="/img/landau-mechanics-ch1/20.svg" alt="公式">
+
+</p>
+<p>When solving this second-order differential equation system with s equations, 2s initial values (that is, s generalized positions and s generalized velocities)are needed to be given, and all subsequent evolutions of the system can be uniquely determined.</p>
+<p>-Some Properties</p>
+<p>The Lagrangian quantities of two independent physical systems can be expressed as two separate sums 
+  <img src="/img/landau-mechanics-ch1/21.svg" alt="公式">
+
+. If there is an interaction relationship, they cannot be added together.</p>
+<p>The Lagrangian of a system can be multiplied by any non-zero constant without changing the properties of the system. 
+  <img src="/img/landau-mechanics-ch1/22.svg" alt="公式">
+
+ describes the same system</p>
+<p>Simple Application: Deriving Newton&rsquo;s Law of Inertia
+Given a system that contains only one free mass point, coordinates 
+  <img src="/img/landau-mechanics-ch1/23.svg" alt="公式">
+
+, mass m, and initial velocity is 
+  <img src="/img/landau-mechanics-ch1/24.svg" alt="公式">
+
+, moving in three dimensions; there is no external force.</p>
+<p>The Lagrangian is a 
+  <img src="/img/landau-mechanics-ch1/25.svg" alt="公式">
+
+,  So 
+  <img src="/img/landau-mechanics-ch1/26.svg" alt="公式">
+
+</p>
+<p>then 
+  <img src="/img/landau-mechanics-ch1/27.svg" alt="公式">
+
+, bringing into the equation of motion</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/28.svg" alt="公式">
+
+</p>
+<p>which is 
+  <img src="/img/landau-mechanics-ch1/29.svg" alt="公式">
+
+</p>
+<p>Since L does not contain xyz, so 
+  <img src="/img/landau-mechanics-ch1/30.svg" alt="公式">
+
+</p>
+<p>Bring in 
+  <img src="/img/landau-mechanics-ch1/31.svg" alt="公式">
+
+ , which is the conservation of momentum</p>
+<p>In fact, it is describing 
+  <img src="/img/landau-mechanics-ch1/32.svg" alt="公式">
+
+.Therefore, the coordinates of the free particle can only be expressed as: 
+  <img src="/img/landau-mechanics-ch1/33.svg" alt="公式">
+
+ , it is moving in a straight line; if the initial velocity is 0, it will remain at rest.</p>
+<h2 id="3-galileos-relativity-principle">3. Galileo’s relativity principle</h2>
+<p>In the generalized coordinate q, q is only an abstract reference, and its specific value can only be uniquely determined by relying on the determination of the reference frame; in different reference systems, the real value of q will be different to some extent.</p>
+<p>The inertial reference frame is a special reference frame, in which the space is isotropic and uniform, and the time is also passing uniformly; in this frame of reference, the object has inertia, that is, a stationary object without external force, which remains at rest forever.</p>
+<p>Between different reference frames, Galileo transformation can be done to transform the description q in one reference frame K to the description q&rsquo; in another reference frame K&rsquo;, satisfying (assuming that the reference frame K&rsquo; moves at a velocity V relative to K) :</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/34.svg" alt="公式">
+
+
+The latter t&rsquo;=t is the time concept of classical mechanics, that is, in any frame of reference, the passage of time is uniform.</p>
+<p>Inevitably, the laws of mechanics must remain unchanged in different reference frames, which is called Galileo&rsquo;s principle of relativity, that is, the laws of mechanics are invariant under Galilean transformation.</p>
+<h2 id="4-the-lagrangian-for-a-system-of-particles">4. The Lagrangian for a system of particles</h2>
+<p>By considering a system of particles which interact with one another but with no other bodies, it is called a closed system. It is found that the interaction between the particles can be described by adding to the Lagrangian for non-interacting particles a certain function of the co-ordinates, which depends on the nature of the interaction.t Denoting this function by -U, we have</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/35.png" alt="公式">
+
+
+where r is the radius vector of the particle. This is the general form of the Lagrangian for a closed system.!
+The 
+
+  <img src="/img/landau-mechanics-ch1/36.png" alt="公式">
+
+</p>
+<p>is called the kinetic energy, and U the potential energy, of the system.Knowing the Lagrangian, we can derive the equations of motion:</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/37.png" alt="公式">
+
+</p>
+<p>Substitution of  this  gives</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/38.png" alt="公式">
+
+</p>
+<p>In this form the equations of motion are called Newton’s equations and form the basis of the mechanics of a system of interacting particles. The vector</p>
+<p>
+  <img src="/img/landau-mechanics-ch1/39.png" alt="公式">
+
+</p>
+<p>which appears on the left-hand side of equation is called the force on the a th particle.</p>
+<h2 id="5-problems">5. Problems</h2>
+<p>Find the Lagrangian for each of the following systems when placed in a uniform gravitational field (acceleration g)
+
+  <img src="/img/landau-mechanics-ch1/40.png" alt="公式">
+
+
+My Answer:
+
+  <img src="/img/landau-mechanics-ch1/41.png" alt="公式">
+
+
+
+  <img src="/img/landau-mechanics-ch1/42.png" alt="公式">
+
+</p>
+<p>My Answer:
+
+  <img src="/img/landau-mechanics-ch1/43.png" alt="公式">
+
+
+
+  <img src="/img/landau-mechanics-ch1/44.png" alt="公式">
+
+
+
+  <img src="/img/landau-mechanics-ch1/45.png" alt="公式">
+
+</p>
+<p>My Answer:
+3(a)
+
+  <img src="/img/landau-mechanics-ch1/46.png" alt="公式">
+
+</p>
+<p>3(b)
+
+  <img src="/img/landau-mechanics-ch1/47.png" alt="公式">
+
+</p>
+<p>3(c)
+
+  <img src="/img/landau-mechanics-ch1/48.png" alt="公式">
+
+</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/11/03/hello-world/" data-toggle="tooltip" data-placement="top" title="Welcome to Jacky Tang&#39;s Blog">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2022/08/24/vim-tips/" data-toggle="tooltip" data-placement="top" title="Vim Tips">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/Toxic-IT-guy">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/jacky-tang-06642aa6/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Jacky Tang&#39;s Blog 2022
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,13 +1,18 @@
 ---
 layout:     post
-title:      "Self-Education-Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion"
+title:      "Self-Education-Theoretical-Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion"
+subtitle:   ""
+description: ""
 date:     2022-08-23
+published: true
 author:  Jacky Tang
 categories: [ "Physics"]
 tags:
     - Physics
-URL: "/2022/08/24/landau-mechanics-ch1/"
+URL: "/2022/08/23/landau-mechanics-ch1/"
 ---
+
+<!--more-->
 ![Coverpage](/img/landau-mechanics-ch1/landau.jpg)
  ## 1. A generalized coordinate
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics on Jacky Tang&#39;s Blog</title>
+    <link>//localhost:1313/categories/physics/</link>
+    <description>Recent content in Physics on Jacky Tang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-Education-Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion</title>
+      <link>//localhost:1313/2022/08/23/landau-mechanics-ch1/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/2022/08/23/landau-mechanics-ch1/</guid>
+      <description>1. A generalized coordinate In mechanics, objects of negligible size in motion are usually treated as mass points, its position is determined by r(x, y, z), abbreviated as r. Its velocity and acceleration are For a system, if it contains N particles, in order to uniquely determine the positions of all particles, 3N coordinates are required, which are called degrees of freedom. In a system with a degree of freedom</description>
+    </item>
+    
+  </channel>
+</rss>

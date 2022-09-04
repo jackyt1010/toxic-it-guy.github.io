@@ -1,7 +1,10 @@
 ---
 layout:     post
 title:      "Competitive Programming [Algorithm Competition Advanced Guide] Chapter 1 Basic Algorithm Exercises"
+subtitle:   ""
+description: ""
 date:     2022-08-24
+published: true
 author:  Jacky Tang
 categories: ["Computer Science"]
 tags:
@@ -9,6 +12,8 @@ tags:
     - C++
 URL: "/2022/08/24/algorithm-competition-advanced-guide-ch1/"
 ---
+
+<!--more-->
 ![Coverpage2](/img/algorithm-competition-advanced-guide-ch1/cover.jpg)
 
 ## POJ1995 (Bitwise Operation)
