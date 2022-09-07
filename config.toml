@@ -1,4 +1,4 @@
-baseurl = "https://nimble-llama-cfd1c8.netlify.app"
+baseurl = "https://localhost:1313"
 title = "Jacky Tang's Blog"
 theme = "cleanwhite"
 languageCode = "en-us"
@@ -8,7 +8,7 @@ googleAnalytics = ""
 preserveTaxonomyNames = true
 paginate = 8 #frontpage pagination
 hasCJKLanguage = true
-
+mathjax = true
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
 
@@ -35,7 +35,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "Software Developer, Computer Science/Physics/Mathematics Ethusiast"
+  sidebar_about_description = "Software Developer | Computer Science, Physics, Mathematics Ethusiast"
   #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
   #sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
@@ -129,3 +129,4 @@ params = ["categories", "tags"]
 
 [Permalinks]
     post = "/:filename/"
+

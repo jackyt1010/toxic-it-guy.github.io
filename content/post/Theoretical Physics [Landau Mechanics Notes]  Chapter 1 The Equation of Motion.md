@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Self-Education-Theoretical-Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion"
+title:      "Self-Education Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion"
 subtitle:   ""
 description: ""
 date:     2022-08-23
@@ -8,7 +8,8 @@ published: true
 author:  Jacky Tang
 categories: [ "Physics"]
 tags:
-    - Physics
+    - Theortical Physics
+    - Classical Mechanics
 URL: "/2022/08/23/landau-mechanics-ch1/"
 ---
 
