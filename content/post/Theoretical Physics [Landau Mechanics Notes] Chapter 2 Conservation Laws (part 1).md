@@ -10,7 +10,7 @@ categories: [ "Physics"]
 tags:
     - Theortical Physics
     - Classical Mechanics
-URL: "/2022/09/07/landau-mechanics-ch2/"
+URL: "/2022/09/08/landau-mechanics-ch2/"
 katex: true
 ---
 
