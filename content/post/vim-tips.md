@@ -4,7 +4,7 @@ title:      "Vim Tips and tricks"
 subtitle:   ""
 description: ""
 date:       2022-08-24 
-image:      "/img/2018-02-09-vim-tips/matrix.jpg"
+author:  Jacky Tang
 published: true
 tags:
     - Tips
