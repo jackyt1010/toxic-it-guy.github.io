@@ -36,14 +36,14 @@ of mass of the system.
 
   ## 9. Angular momentum 
   Let us presently infer the conservation law which takes after from the isotropy of space. This isotropy implies that the mechanical properties of a closed system do not change when it is rotated as a entire in any way in space.
-  We shall use the vector $$\partial \phi $$ of the infinitesimal rotation, whose magnitude
+  We shall use the vector $$\overrightarrow{\partial \phi} $$ of the infinitesimal rotation, whose magnitude
 is the angle of rotation $$\partial \phi $$ and whose direction is that of the axis of rotation.
 Let us find, first of all, the resulting increment in the radius vector from
 an origin on the axis to any particle in the system undergoing rotation. The
 linear displacement of the end of the radius vector is related to the angle by
 $$|\partial r| = r sin(\theta) \partial \phi $$(Fig. 1). The direction of $$\partial r$$ is perpendicular to the plane
 of r and $$\partial \phi $$. Hence it is clear that
-$$\partial r = \partial \phi \times r$$
+$$\partial r = \overrightarrow{{\partial \phi} \times r$$
  ![1](/img/landau-mechanics-ch2/5.png)
  ![2](/img/landau-mechanics-ch2/6.png)
  ![3](/img/landau-mechanics-ch2/7.png)
