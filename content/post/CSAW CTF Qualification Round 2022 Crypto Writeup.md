@@ -3,7 +3,7 @@ layout:     post
 title:      "CSAW CTF Qualification Round 2022 Writeup(Crypto)"
 subtitle:   ""
 description: ""
-date:     2022-09-18
+date:     2022-09-17
 published: true
 author:  Jacky Tang
 published: true
@@ -12,7 +12,7 @@ tags:
     - Information Security
     - CTF
     - Cryptography
-URL: "/2022/09/18/csaw-ctf-qualification-2022-crypto/"
+URL: "/2022/09/17/csaw-ctf-qualification-2022-crypto/"
 katex: true
 ---
 
