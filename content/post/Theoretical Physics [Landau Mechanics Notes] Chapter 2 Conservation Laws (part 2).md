@@ -57,11 +57,11 @@ $$ M_x = \sum_a m(y_a \dot{z}_a - z_a \dot{y}_a)$$
 $$ M_y = \sum_a m(z_a \dot{x}_a - x_a \dot{z}_a)$$
 $$ M_z = \sum_a m(x_a \dot{y}_a - y_a \dot{x}_a)$$
 =>
-$$ M_x = m(r sin \phi \dot{z} - \dot{r} sin \phi z - r cos(phi)\phi z)$$
-$$ M_y = m(- z r sin \phi \phi + \dot{r} cos \phi z - r cos(phi)\phi \dot{z})$$
+$$ M_x = m(r sin \phi \dot{z} - \dot{r} sin \phi z - r cos(\phi)\phi z)$$
+$$ M_y = m(- z r sin \phi \phi + \dot{r} cos \phi z - r cos(\phi)\phi \dot{z})$$
 $$ M_z = m r^{2} \phi $$
 $$M^{2} = M^{2}_x+M^{2}_y+M^{2}_z=m^{2}r^{2}\phi^{2}(r^{2}+z^{2}) + m^{2}(r\dot{z}-z\dot{r})^{2}$$
-  Problem 2. The same as Problem 1, but in spherical co-ordinates $$r, \theta, \phi$$.
+  Problem 2. The same as Problem 1, but in spherical co-ordinates $$r, \theta, \phi$$
  My Answer:
   [Spherical coordinate system](https://en.wikipedia.org/wiki/Spherical_coordinate_system)
   ![4](/img/landau-mechanics-ch2/Q2_sol.jpg)
