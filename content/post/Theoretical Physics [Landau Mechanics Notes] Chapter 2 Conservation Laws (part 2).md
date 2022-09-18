@@ -43,7 +43,7 @@ an origin on the axis to any particle in the system undergoing rotation. The
 linear displacement of the end of the radius vector is related to the angle by
 $$|\partial r| = r sin(\theta) \partial \phi $$(Fig. 1). The direction of $$\partial r$$ is perpendicular to the plane
 of r and $$\partial \phi $$. Hence it is clear that
-$$\partial r = \overrightarrow{{\partial \phi} \times r$$
+$$\partial r = \overrightarrow{\partial \phi} \times r$$
  ![1](/img/landau-mechanics-ch2/5.png)
  ![2](/img/landau-mechanics-ch2/6.png)
  ![3](/img/landau-mechanics-ch2/7.png)
