@@ -111,7 +111,7 @@ with open('encrypted_passwords.txt','rb') as f:
       print(decrypt(ct))
 
 ```
-and it gives us the foillowing result:
+and it gives us the following result:
 ```
 Kingler-Water▬
 Darkrai-DarkÇ
