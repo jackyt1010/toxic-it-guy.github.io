@@ -35,7 +35,7 @@ The encrypted password is: b ' kz\xc6\xb9\xd9Du\xcb\x8a\x9e\xe0\x9d\xbeo\xee\x03
 Would you like to go again? ( Y/N )
 ```
 
-We now have a pair of plaintext and ciphertext under the simple XOR encryption scheme, we may just simply use the propoerties of XOR
+We now have a pair of plaintext and ciphertext under the simple XOR encryption scheme, we may just simply use the properties of XOR
 to recover the key.Then, we use the acquired key to decrypt the encryted password lists:
 encrypted_passwords.txt
 ```
@@ -244,7 +244,7 @@ print(phi_n)
 Finally, the flag is ```flag{aR3nT_U_tH3_RSA_ninJA}```
 
   ## Not Too Taxing
-For this problem, we just need to peroform the known plaintext attack for zip file.
+For this problem, we just need to perform the known plaintext attack for zip file.
 
 By the tool AZPR, we can recover the 3 encrypted keys:
 ![1](/img/CSAW-ctf-qualification-round2022/1.png)
