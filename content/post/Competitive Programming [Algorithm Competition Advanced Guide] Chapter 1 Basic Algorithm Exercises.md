@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Competitive Programming [Algorithm Competition Advanced Guide] Chapter 1 Basic Algorithm Exercises"
+title:      "Competitive Programming [Algorithm Competition Advanced Guide] Chapter 1 Basic Algorithm Exercises(Part 1)"
 subtitle:   ""
 description: ""
 date:     2022-08-24
