@@ -39,7 +39,7 @@ $$E=\sum_i\dot{q_i}\frac{\partial L}{\partial \dot{q_{i}}}-L   \text{       (6.1
 remains constant during the motion of a closed system, i.e. it is an integral
 of the motion and E is called the energy of the system.
 
-As we see in [Chapter 1](https://nimble-llama-cfd1c8.netlify.app/2022/08/23/landau-mechanics-ch1/), the Lagrangian of a closed system is of the form $$L = T(q, \dot{q})— U(q)$$ where T is a quadratic
+As we see in [Chapter 1](https://jackyt.netlify.app/2022/08/23/landau-mechanics-ch1/), the Lagrangian of a closed system is of the form $$L = T(q, \dot{q})— U(q)$$ where T is a quadratic
 function of the velocities.By [Euler’s theorem on homogeneous functions](https://en.wikipedia.org/wiki/Homogeneous_function), we have $$\sum_i\dot{q_i}\frac{\partial L}{\partial \dot{q_{i}}}=\sum_i\dot{q_i}\frac{\partial T}{\partial \dot{q_{i}}}=2T$$
 
 Substituting this in (6.1) gives $$E = T(q, \dot{q})+ U(q)$$
