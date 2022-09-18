@@ -52,7 +52,7 @@ $$\partial r = \overrightarrow{\partial \phi} \times r$$
   Problem 1. Obtain expressions for the Cartesian components and the magnitude of the
 angular momentum of a particle in cylindrical co-ordinates $$r, \phi, z$$
 My Answer:
-$$ x = r cos\theta, y = r sin\theta, z=z$$
+$$ x = r cos\phi, y = r sin\phi, z=z$$
 $$ M_x = \sum_a m(y_a \dot{z}_a - z_a \dot{y}_a)$$
 $$ M_y = \sum_a m(z_a \dot{x}_a - x_a \dot{z}_a)$$
 $$ M_z = \sum_a m(x_a \dot{y}_a - y_a \dot{x}_a)$$
