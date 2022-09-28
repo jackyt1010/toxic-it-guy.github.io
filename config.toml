@@ -1,3 +1,4 @@
+enableRobotsTXT = true
 baseurl = "https://jackyt.netlify.app"
 title = "Jacky Tang's Blog"
 theme = "cleanwhite"
