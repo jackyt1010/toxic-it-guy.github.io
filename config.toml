@@ -131,3 +131,8 @@ params = ["categories", "tags"]
 [Permalinks]
     post = "/:filename/"
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
