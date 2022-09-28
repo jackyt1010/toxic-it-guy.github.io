@@ -15,7 +15,7 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "Jacky的博客 | Jacky's Blog"
-  description = "Jacky Tang, Programmer, Open Source Enthusiast, Computer Science/Physics/Mathematics Researcher | Here is Jacky Tang's blog, discover the bigger world with you."
+  description = "Jacky Tang, Programmer, Open Source Enthusiast, Computer Science/Physics/Mathematics Learner | Here is Jacky Tang's blog, discover the bigger world with you."
   keyword = "Jacky Tang, Jacky, Jacky的网络日志, Jacky的網絡日誌, Jacky的博客, Jacky's Blog, 博客, 个人网站, 個人網站, 互联网, 互聯網, Web, Programming, Competitive Programming, Software Development, Physics, Physical Science, Mathematics, Cryptography, Information Security, CTF, Capture-the-Flag Competition"
   slogan = "The road is at the foot, the heart is far away"
 
