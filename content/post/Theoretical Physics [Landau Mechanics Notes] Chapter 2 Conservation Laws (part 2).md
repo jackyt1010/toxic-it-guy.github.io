@@ -64,4 +64,3 @@ $$M^{2} = M^{2}_x+M^{2}_y+M^{2}_z=m^{2}r^{2}\phi^{2}(r^{2}+z^{2}) + m^{2}(r\dot{
   Problem 2. The same as Problem 1, but in spherical co-ordinates $$r, \theta, \phi$$
  My Answer:
   [Spherical coordinate system](https://en.wikipedia.org/wiki/Spherical_coordinate_system)
-  ![4](/img/landau-mechanics-ch2/Q2_sol.jpg)
