@@ -6,7 +6,7 @@ languageCode = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 preserveTaxonomyNames = true
-paginate = 8 #frontpage pagination
+paginate = 7 #frontpage pagination
 hasCJKLanguage = true
 mathjax = true
 [outputs]
@@ -14,9 +14,9 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/home-bg-jeep.jpg"
-  #SEOTitle = "赵化冰的博客 | Zhaohuabing Blog"
-  #description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
-  #keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
+  SEOTitle = "Jacky的博客 | Jacky's Blog"
+  description = "Jacky Tang, Programmer, Open Source Enthusiast, Computer Science/Physics/Mathematics Researcher | Here is Jacky Tang's blog, discover the bigger world with you."
+  keyword = "Jacky Tang, Jacky, Jacky的网络日志, Jacky的網絡日誌, Jacky的博客, Jacky's Blog, 博客, 个人网站, 個人網站, 互联网, 互聯網, Web, Programming, Competitive Programming, Software Development, Physics, Physical Science, Mathematics, Cryptography, Information Security, CTF, Capture-the-Flag Competition"
   slogan = "The road is at the foot, the heart is far away"
 
   image_404 = "img/404-bg.jpg"
@@ -29,7 +29,7 @@ home = ["HTML", "RSS", "Algolia"]
   leancloud_app_key = ""
 
   # algolia site search
-  algolia_search = false
+  algolia_search = true
   algolia_appId = ""
   algolia_indexName = ""
   algolia_apiKey = ""
@@ -68,7 +68,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   [params.social]
   rss            = false 
-  #email          = "youremail@gmail.com"
+  email          = "18074386d@connect.polyu.hk"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
