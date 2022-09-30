@@ -1,3 +1,8 @@
-Sitemap: https://jackyt.netlify.app/sitemap.xml
 User-agent: * 
-Disallow:
+Disallow: /tags/*
+          /catergories/*
+Allow: /
+       /tags/*/
+       /catergories/*/
+
+Sitemap: https://jackyt.netlify.app/sitemap.xml
