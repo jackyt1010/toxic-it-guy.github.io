@@ -1,8 +1,8 @@
 User-agent: * 
 Disallow: /tags/*
-          /catergories/*
+Disallow: /catergories/*
 Allow: /
-       /tags/*/
-       /catergories/*/
+Allow: /tags/*/
+Allow: /catergories/*/
 
 Sitemap: https://jackyt.netlify.app/sitemap.xml
