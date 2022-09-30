@@ -36,7 +36,7 @@
 
     <title>Computer Science | </title>
 
-    <link rel="canonical" href="/categories/computer-science/">
+    <link rel="canonical" href="/categories/computer-science">
 
     
     
@@ -193,7 +193,38 @@
         <div class="post-content-preview">
 	
             POJ1995 (Bitwise Operation) https://vjudge.net/problem/POJ-1995
-#include &lt;cstdio&gt;#define ll long longusing namespace std;ll mod;ll ans;int Z,M,H;ll power(ll a, ll n, ll p){int ans = 1%p;for(; n; n&gt;&gt;=1){if(n &amp; 1) ans = (long long) ans * a % p;a = (long long) a * a % p;}return ans;}int main(){cin&gt;&gt;Z;while(Z--){ans=0;cin&gt;&gt;M&gt;&gt;H;mod=M;for(int i=0;i&lt;H;i++){ ll a,b;cin&gt;&gt;a&gt;&gt;b;ans+=power(a, b, mod);}ans = power(ans, 1, mod);cout &lt;&lt; ans &lt;&lt; endl;}} CH0102/AcWing90 (Bitwise Operation) https://www.
+#include &lt;cstdio&gt;
+#define ll long long
+using namespace std;
+ll mod;
+ll ans;
+int Z,M,H;
+ll power(ll a, ll n, ll p)
+{
+int ans = 1%p;
+for(; n; n&gt;&gt;=1){
+if(n &amp; 1) ans = (long long) ans * a % p;
+a = (long long) a * a % p;
+}
+return ans;
+}
+int main()
+{
+cin&gt;&gt;Z;
+while(Z--)
+{
+ans=0;
+cin&gt;&gt;M&gt;&gt;H;
+mod=M;
+for(int i=0;i&lt;H;i++)
+{ ll a,b;
+cin&gt;&gt;a&gt;&gt;b;
+ans+=power(a, b, mod);
+}
+ans = power(ans, 1, mod);
+cout &lt;&lt; ans &lt;&lt; endl;
+}
+} CH0102/AcWing90 (Bitwise Operation) https://www.
        
         </div>
     </a>
