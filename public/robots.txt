@@ -1,0 +1,3 @@
+Sitemap: https://jackyt.netlify.app/sitemap.xml
+User-agent: * 
+Disallow:
