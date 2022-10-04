@@ -29,13 +29,7 @@ of φ.
 
 My Answer:
 $$∇ × F$$ = 
-$$
-    \begin{vmatrix}
- i & j & k \\\\
-\frac{\partial }{\partial x} & \frac{\partial }{\partial y} & \frac{\partial }{\partial z} \\\\
-2xz & 2yz^{2} & x^{2} + 2y^{2}z-1
-    \end{vmatrix}
-=(4yz - 4yz)i - (2x-2x)j + (0-0)k = \textbf{0} $$
+![Coverpage](/img/mathematical-physics/ans1.png)
 
 The fact that it is implies that F can be written as ∇φ for some scalar φ.
 Let $$F=∇φ$$, $$2xz = \frac{\partial φ}{\partial x}$$=>$$x^{2}z + g(y, z) = φ$$
