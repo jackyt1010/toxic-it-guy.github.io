@@ -12,6 +12,8 @@ tags:
     - Mathematical Methods
 URL: "/2022/10/03/mathematical-methods-ch11/"
 katex: true
+header-includes:
+   - \usepackage{amsmath}
 ---
 
 <!--more-->
@@ -26,11 +28,13 @@ of φ.
 
 
 My Answer:
-$$∇ × F$$ = $$\begin{vmatrix}
-i & j & k\\\\
-\frac{\partial }{\partial x} & \frac{\partial }{\partial y} & \frac{\partial }{\partial z}\\\\
+$$∇ × F$$ = 
+$$
+    \begin{vmatrix}
+ i & j & k \\\\
+\frac{\partial }{\partial x} & \frac{\partial }{\partial y} & \frac{\partial }{\partial z} \\\\
 2xz & 2yz^{2} & x^{2} + 2y^{2}z-1
-\end{vmatrix}
+    \end{vmatrix}
 =(4yz - 4yz)i - (2x-2x)j + (0-0)k = \textbf{0} $$
 
 The fact that it is implies that F can be written as ∇φ for some scalar φ.
