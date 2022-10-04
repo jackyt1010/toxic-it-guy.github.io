@@ -87,7 +87,7 @@ At P,
 $$a cos \theta_1= x = \frac{ab}{(a^{2}+b^{2})^{1/2}} => tan \theta_1 = \frac{a}{b}$$
 Similarly, referring to that part of
 $$\frac{x^{2}}{b^{2}}+\frac{y^{2}}{a^{2}} = 1$$
-that lies on the boundary of the common region as curve $$C_2$$, we parameterise it
+that lies on the boundary of the common region as curve $$C_2,$$ we parameterise it
 by $$x = b cos \theta_2 \hskip 1em and \hskip 1em y = a sin \theta_2 $$ with $$ 0 ≤ \theta_2 ≤ tan^{−1}(b/a).$$
 On the x-axis, both y and dy are zero and the integrand xdy − y dx, vanishes.Similar for y-axis.
 $$I = \oint_L (xdy -ydx) $$
@@ -96,5 +96,5 @@ $$= \int_{0}^{tan^{−1}(b/a)}{[] ab(cos \theta_2 cos \theta_2) \ - ab sin \thet
 $$= ab(tan^{−1}(b/a)) + ab(\frac{\pi}{2} - tan^{−1}(a/b))$$
 $$=2ab(tan^{−1}(b/a))$$
 By the Green's theroem, the area of a region R enclosed by a simple closed curve C is given by A = $$\frac{1}{2}(\oint_L (xdy -ydx))$$
-The total common area in all four quadrants is $$4 \times \frac{1}{2} \times 2abtan^{−1}(b/a)=4ab(tan^{−1}(b/a))$$
+The total common area in all four quadrants is $$4 \times \frac{1}{2} \times 2ab(tan^{−1}(b/a))=4ab(tan^{−1}(b/a))$$
 Note that if we let b → a then the two ellipses become identical circles and we recover the expected value of $$\pi a^{2}$$ for their common area.
