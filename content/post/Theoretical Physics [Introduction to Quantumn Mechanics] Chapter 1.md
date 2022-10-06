@@ -12,8 +12,6 @@ tags:
     - Quantumn Mechanics
 URL: "/2022/10/07/intro-quantumn-mechanics-ch1/"
 katex: true
-header-includes:
-   - \usepackage{amsmath}
 ---
 
 <!--more-->
