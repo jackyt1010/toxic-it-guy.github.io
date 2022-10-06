@@ -5,7 +5,7 @@ theme = "cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "Jacky Tang, Programmer, Open Source Enthusiast, Computer Science/Physics/Mathematics Learner, Self-Educator, Jacky, Jacky的网络日志, Jacky的網絡日誌, Jacky的博客, Jacky's Blog, 博客, 个人网站, 個人網站, 互联网, 互聯網, Web, Programming, Competitive Programming, Software Development, Physics, Physical Science, Mathematics, Cryptography, Information Security, CTF, Capture-the-Flag Competition"
 preserveTaxonomyNames = true
 paginate = 7 #frontpage pagination
 hasCJKLanguage = true
