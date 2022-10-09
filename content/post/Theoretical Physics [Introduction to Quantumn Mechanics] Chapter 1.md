@@ -35,3 +35,23 @@ The statistical interpretation introduces a kind of indeterminacy into quantum m
 the particle, still you cannot predict with certainty the outcome of a simple experiment to measure its position-an quantum mechanics has to offer is statistical infom1ation about the possible results. This indetenninacy
 has been profoundly disturbing to physicists and philosophers alike, and it is natural to wonder whether it is a fact of nature.
 
+  ## 1.3 Probability
+For contiuous variable x, if we let the probability density function be p(x), then the probability that an individual(chosen at random) lies between x and x+dx is equal to p(x)dx.
+The probability that x lies between a and b (a .finite interval) is given by the integral of p(x): $$P_{ab}=\int_{a}^{b}{p(x)} dx$$ and we have the following equations for statistics:
+$$$1=\int_{-\inf}^{+]inf}{p(x)} dx$$
+$$The expectation value <x>=\int_{-\inf}^{+]inf}{xp(x)} dx$$
+$$The expectation value <f(x)>=\int_{-\inf}^{+]inf}{f(x)p(x)} dx$$
+$$The variance: $\sigma^{2} = <x^{2}> - <x>^{2} $$
+
+Example 1.1 Suppose I drop a rock off a cliff of height h. As it falls, I snap a million photographs, at random intervals. On each picture I measure the average distance the rock has fallen. Question: What is the average of all these distances?
+That is to say, what is the time average of the distance traveled?
+
+Solution: Solution: The rock starts out at rest, and picks up speed as it falls; it spends more time near the top, so the average distance must be less than h /2. Ignoring air resistance, the distance x at time t is 
+$$x(t) = \frac{1}{2}gt^{2}$$
+
+The velocity is dx / dt = gt, and the total flight time is $$T = \sqrt{2h / g}$$. The probability that the camera flashes in the interval dt is dt / T, so the probability that a given photograph shows a distance in the corresponding 
+range dx is $$\frac{dt}{T} = \frac{dx}{gt}\sqrt{\frac{2h}{g}}=\frac{1}{2\sqrt{hx}}dx$$
+Evidently the probability density is
+$$p(x) = \frac{1}{2\sqrt{hx}}$$
+Thus, the average distance is $$<x> = \int_{0}^{h} {x \frac{1}{2\sqrt{hx}}}=\frac{1}{2\sqrt{h}}(\frac{2}{3} x^{3/2})|_{0}^{h} = h/3$$ <br/>  
+which is somewhat less than h /2, as anticipated.
