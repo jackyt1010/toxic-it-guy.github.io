@@ -29,9 +29,8 @@ The Schrodinger equation plays a role logically analogous to Newton's second law
 But what exactly is this "wave function,", a particle, by its nature, is localized at a point, whereas the wave function is spread out in space.How can such an object represent the state of a particle?The answer
 is provided by Born' s statistical interpretation of the wave function, which says that $$|Ψ(x, t)|^{2}$$ gives the probability of finding the particle at point x, at time t-or,
 more precisely, 
-$$\int_{a}^{b}{|Ψ(x, t)|^{2}} dx$$ = {the probability pf finding the particle bewteen a and b. at time t}<br/>  
-Probability is the area under the graph of $$|Ψ(x, t)|^{2}$$.
-
+$$\int_{a}^{b}{|Ψ(x, t)|^{2}} dx$$ = {the probability of finding the particle bewteen a and b at time t}<br/>  
+Probability is the area under the graph of $$|Ψ(x, t)|^{2}.$$
 The statistical interpretation introduces a kind of indeterminacy into quantum mechanics, for even if you know everything the theory has to tell you about
 the particle, still you cannot predict with certainty the outcome of a simple experiment to measure its position-an quantum mechanics has to offer is statistical infom1ation about the possible results. This indetenninacy
 has been profoundly disturbing to physicists and philosophers alike, and it is natural to wonder whether it is a fact of nature.
