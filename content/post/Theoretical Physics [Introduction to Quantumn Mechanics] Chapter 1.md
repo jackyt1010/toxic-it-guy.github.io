@@ -53,5 +53,5 @@ The velocity is dx / dt = gt, and the total flight time is $$T = \sqrt{2h / g}$$
 range dx is $$\frac{dt}{T} = \frac{dx}{gt}\sqrt{\frac{2h}{g}}=\frac{1}{2\sqrt{hx}}dx$$
 Evidently the probability density is
 $$p(x) = \frac{1}{2\sqrt{hx}}$$
-Thus, the average distance is $$ \<x\> = \int_{0}^{h} {x \frac{1}{2\sqrt{hx}}}=\frac{1}{2\sqrt{h}}(\frac{2}{3} x^{3/2})\rvert_{0}^{h} = h/3$$ <br/>  
+Thus, the average distance is $$ \<x\> = \int_{0}^{h} {x \frac{1}{2\sqrt{hx}}} dx =\frac{1}{2\sqrt{h}}(\frac{2}{3} x^{3/2})\rvert_{0}^{h} = h/3$$ <br/>  
 which is somewhat less than h /2, as anticipated.
