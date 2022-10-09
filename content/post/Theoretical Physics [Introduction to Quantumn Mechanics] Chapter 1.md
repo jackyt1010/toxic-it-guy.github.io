@@ -25,11 +25,11 @@ $$i\hbar \frac{\partial Ψ }{\partial t} = -\frac{\hbar^{2}}{2m}\frac{\partial^{
 Here i is the square root of -1, and Ii is Planck's constant.
 The Schrodinger equation plays a role logically analogous to Newton's second law.
 
-  ## 1.2 THE statstical interpretation
+  ## 1.2 The statstical interpretation
 But what exactly is this "wave function,", a particle, by its nature, is localized at a point, whereas the wave function is spread out in space.How can such an object represent the state of a particle?The answer
 is provided by Born' s statistical interpretation of the wave function, which says that $$|Ψ(x, t)|^{2}$$ gives the probability of finding the particle at point x, at time t-or,
 more precisely, 
-$$\int_{a}^{b}{|Ψ(x, t)|^{2}} dx$$ = {the probability pf finding the particle bewteen a and b. at time t}
+$$\int_{a}^{b}{|Ψ(x, t)|^{2}} dx$$ = {the probability pf finding the particle bewteen a and b. at time t}<br/>  
 Probability is the area under the graph of $$|Ψ(x, t)|^{2}$$.
 
 The statistical interpretation introduces a kind of indeterminacy into quantum mechanics, for even if you know everything the theory has to tell you about
