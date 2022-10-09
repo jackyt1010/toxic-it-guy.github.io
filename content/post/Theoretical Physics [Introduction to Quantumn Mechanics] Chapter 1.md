@@ -38,10 +38,10 @@ has been profoundly disturbing to physicists and philosophers alike, and it is n
   ## 1.3 Probability
 For contiuous variable x, if we let the probability density function be p(x), then the probability that an individual(chosen at random) lies between x and x+dx is equal to p(x)dx.
 The probability that x lies between a and b (a .finite interval) is given by the integral of p(x): $$P_{ab}=\int_{a}^{b}{p(x)} dx$$ and we have the following equations for statistics:
-$$1=\int_{-\inf}^{+inf}{p(x)} dx$$
-$$The expectation value <x>=\int_{-\inf}^{+inf}{xp(x)} dx$$
-$$The expectation value <f(x)>=\int_{-\inf}^{+inf}{f(x)p(x)} dx$$
-$$The variance: \sigma^{2} = <x^{2}> - <x>^{2} $$
+$$1=\int_{-\infty}^{+\infty}{p(x)} dx$$
+$$\text{The expectation value} <x>=\int_{-\infty}^{+\infty}{xp(x)} dx$$
+$$\text{The expectation value} <f(x)>=\int_{-\infty}^{+\infty}{f(x)p(x)} dx$$
+$$\text{The variance }  \sigma^{2} = <x^{2}> - <x>^{2} $$
 
 Example 1.1 Suppose I drop a rock off a cliff of height h. As it falls, I snap a million photographs, at random intervals. On each picture I measure the average distance the rock has fallen. Question: What is the average of all these distances?
 That is to say, what is the time average of the distance traveled?
