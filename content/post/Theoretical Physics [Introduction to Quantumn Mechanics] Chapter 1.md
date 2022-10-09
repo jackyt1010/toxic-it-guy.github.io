@@ -49,7 +49,7 @@ That is to say, what is the time average of the distance traveled?
 Solution: Solution: The rock starts out at rest, and picks up speed as it falls; it spends more time near the top, so the average distance must be less than h /2. Ignoring air resistance, the distance x at time t is 
 $$x(t) = \frac{1}{2}gt^{2}$$
 
-The velocity is dx / dt = gt, and the total flight time is $$T = \sqrt{2h / g}$$. The probability that the camera flashes in the interval dt is dt / T, so the probability that a given photograph shows a distance in the corresponding 
+The velocity is dx / dt = gt, and the total flight time is $$T = \sqrt{2h / g}$$ The probability that the camera flashes in the interval dt is dt / T, so the probability that a given photograph shows a distance in the corresponding 
 range dx is $$\frac{dt}{T} = \frac{dx}{gt}\sqrt{\frac{2h}{g}}=\frac{1}{2\sqrt{hx}}dx$$
 Evidently the probability density is
 $$p(x) = \frac{1}{2\sqrt{hx}}$$
