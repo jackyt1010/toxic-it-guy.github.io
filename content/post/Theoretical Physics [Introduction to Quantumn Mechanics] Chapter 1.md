@@ -22,7 +22,7 @@ Once we know that, we can figure out the velocity (v = dx/dt), the momentum (p =
 We apply Newton's second law: F = ma. This, together with appropriate initial conditions determines x(t).<br/>  
 Quantum mechanics approaches this same problem quite differently. In this case what we're looking for is the particle's wave function, Ψ(x, t), and we get it by solving the Schrodinger equation: 
 $$i\hbar \frac{\partial Ψ }{\partial t} = -\frac{\hbar^{2}}{2m}\frac{\partial^{2} Ψ }{\partial x^{2}}+VΨ$$
-Here i is the square root of -1, and Ii is Planck's constant.
+Here i is the square root of -1, and $$\hbar$$ is Planck's constant.
 The Schrodinger equation plays a role logically analogous to Newton's second law.
 
   ## 1.2 The statstical interpretation
