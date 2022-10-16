@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Self-Education Theoretical Physics [Introduction to Quantumn Mechanics] Chapter 1: The Wave Function"
+title:      "Self-Education Theoretical Physics [Introduction to Quantumn Mechanics] Chapter 1: The Wave Function(Part 1)"
 subtitle:   ""
 description: ""
 date:     2022-10-09
@@ -102,5 +102,5 @@ $$=\sqrt{\frac{\lambda}{\pi}}((\int_{-\infty}^{+\infty}u^{2}e^{-\lambda(x-a)^{2}
 By [the formula of Gaussian Integral](http://www.hep.upenn.edu/~johnda/Papers/GausInt.pdf),
 $$=\sqrt{\frac{\lambda}{\pi}}(\frac{1}{2\lambda}\sqrt{\frac{\pi}{\lambda}} + a^{2}\sqrt{\frac{\pi}{\lambda}})=\frac{1}{2\lambda} + a^{2}$$
 <br/>  
-$$\sigma = \sqrt{\<x^{2}\>-\<x\>^{2}} = \sqrt{\frac{1}{2\lambda} + a^{2} - a^{2}} = \frac{1}{\sqrt{2\lambda}$$
+$$\sigma = \sqrt{\<x^{2}\>-\<x\>^{2}} = \sqrt{\frac{1}{2\lambda} + a^{2} - a^{2}} = \frac{1}{\sqrt{2\lambda}}$$
 ![1.3cAns](/img/intro-quantumn-mechanics/1-3c.png)
