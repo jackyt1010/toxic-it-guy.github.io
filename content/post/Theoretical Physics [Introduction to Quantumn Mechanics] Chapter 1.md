@@ -73,7 +73,9 @@ $$P=1-\sqrt{0.6135}+\sqrt{0.0352}=0.393$$<br/>
 Problem 1.3
 Consider the gaussian distribution<br/>  
 $$p(x) = Ae^{-\lambda(x-a)^{2}}$$
-where $$A, a, \text{and} \lambda$$ are positive real constants. (Look up any integrals you need.) 
-(a)	Use the statistical qquation  to determine A.
-(b)	Find $$\<x\>,  \<y\>, A.$$
-(c)	Sketch the graph of p(x).
+where $$A, a, \text{and  } \lambda$$ 
+are positive real constants. (Look up any integrals you need.)<br/>  
+(a)	Use the statistical qquation  to determine A.<br/>  
+(b)	Find $$\<x\>,  \<y\>, A.$$<br/>  
+(c)	Sketch the graph of p(x).<br/>  
+<br/>  
