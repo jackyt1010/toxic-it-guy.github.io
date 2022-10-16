@@ -76,7 +76,7 @@ $$p(x) = Ae^{-\lambda(x-a)^{2}}$$
 where $$A, a, \text{and  } \lambda$$ 
 are positive real constants. (Look up any integrals you need.)<br/>  
 (a)	Use the statistical qquation  to determine A.<br/>  
-(b)	Find $$\<x\>,  \<y\>, A.$$<br/>  
+(b)	Find $$\<x\>,  \<x^{2}\>, A.$$<br/>  
 (c)	Sketch the graph of p(x).<br/>  
 <br/>  
 <br/>  
@@ -86,3 +86,5 @@ Let $$\int_{-\infty}^{+\infty} p(x) dx =1, \int_{-\infty}^{+\infty} Ae^{-\lambda
 Let u=x-a, du=dx, $$\int_{-\infty}^{+\infty} e^{-\lambda(u)^{2}} du = 1$$
 By [ Integral of Gaussian ](https://quantummechanics.ucsd.edu/ph130a/130_notes/node87.html), <br/>  
 $$A\sqrt{\frac{\pi}{\lambda}}=1$$=> $$A=\sqrt{\frac{\lambda}{\pi}}$$
+(b)
+![1.3cAns](/img/intro-quantumn-mechanics/1-3c.png)
