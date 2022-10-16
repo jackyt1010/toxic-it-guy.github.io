@@ -79,3 +79,10 @@ are positive real constants. (Look up any integrals you need.)<br/>
 (b)	Find $$\<x\>,  \<y\>, A.$$<br/>  
 (c)	Sketch the graph of p(x).<br/>  
 <br/>  
+<br/>  
+(a)
+Let $$\int_{-\infty}^{+\infty} p(x) dx =1, \int_{-\infty}^{+\infty} Ae^{-\lambda(x-a)^{2}} dx =1$$
+=>  $$A \int_{-\infty}^{+\infty} e^{-\lambda(x-a)^{2}} dx =1$$
+Let u=x-a, du=dx, $$\int_{-\infty}^{+\infty} e^{-\lambda(u)^{2}} du = 1$$
+By [ Integral of Gaussian ](https://quantummechanics.ucsd.edu/ph130a/130_notes/node87.html), <br/>  
+$$A\sqrt{\frac{\pi}{\lambda}}=1$$=> $$A=\sqrt{\frac{\lambda}{\pi}}$$
