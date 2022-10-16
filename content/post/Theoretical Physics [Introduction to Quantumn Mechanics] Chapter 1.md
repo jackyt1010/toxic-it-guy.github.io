@@ -63,3 +63,9 @@ Problem 1.2
 $$\sigma^{2} = <x^{2}> - \<x\>^{2}$$ =>
 $$<x^{2}> = \int_{0}^{h} {x^{2} \frac{1}{2\sqrt{hx}}} dx=\int_{0}^{h}\frac{x^{3/2}}{2\sqrt{h}}dx=\frac{1}{2\sqrt{h}}(\frac{x^{2/5}}{2.5})\rvert_{0}^{h}=\frac{1}{5 \sqrt{h}}h^{2.5}=\frac{h^{2}}{5}$$
 $$\sigma = \sqrt{\frac{h^{2}}{5} - (\frac{h}{3})^{2}}=\frac{2}{\sqrt{45}}h=0.2981h$$
+<br/>  
+(b)
+$$P=1-\int_{x_{-}}^{x_{+}} p(x) dx = 1 - \int_{x_{-}}^{x_{+}} \frac{1}{2\sqrt{hx}}dx=1-\frac{1}{2\sqrt{h}} \int_{x_{-}}^{x_{+}} x^{-\frac{1}{2}}dx=1-\frac{1}{2\sqrt{h}}(2x)^{\frac{1}{2}}\rvert_{x_{-}}^{x_{+}}=1-\frac{1}{\sqrt{h}}(\sqrt{x_{+}} - \sqrt{x_{-}})$$
+$$x_{+}=<x> + \sigma = 0.3333h+0.2981h=0.6315h$$
+$$x_{-}=<x> - \signma = 0.3333h-0.2981h=0.0352h$$
+$$P=1-\sqrt{0.6135}+\sqrt{0.0352}=0.393$$
