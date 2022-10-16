@@ -55,3 +55,11 @@ Evidently the probability density is
 $$p(x) = \frac{1}{2\sqrt{hx}}$$
 Thus, the average distance is $$ \<x\> = \int_{0}^{h} {x \frac{1}{2\sqrt{hx}}} dx =\frac{1}{2\sqrt{h}}(\frac{2}{3} x^{3/2})\rvert_{0}^{h} = h/3$$ <br/>  
 which is somewhat less than h /2, as anticipated.
+<br/>  
+Problem 1.2
+(a)	Find the standard deviation of the distribution in Example 1.1.
+(b)	What is the probability that a photograph, selected at random, would show a distance x more than one standard deviation away from the average?<br/>  
+(a)
+$$\sigma^{2} = <x^{2}> - \<x\>^{2}$$ =>
+$$<x^{2}> = \int_{0}^{h} {x^{2} \frac{1}{2\sqrt{hx}}} dx=\int_{0}^{h}\frac{x^{3/2}}{2\sqrt{h}}dx=\frac{1}{2\sqrt{h}}(\frac{x^{2/5}}{2.5})\rvert_{0}^{h}=\frac{1}{5 \sqrt{h}}h^{2.5}=\frac{h^{2}}{5}$$
+$$\sigma = \sqrt{\frac{h^{2}}{5} - (\frac{h}{3})^{2}}=\frac{2}{\sqrt{45}}h=0.2981h$$
