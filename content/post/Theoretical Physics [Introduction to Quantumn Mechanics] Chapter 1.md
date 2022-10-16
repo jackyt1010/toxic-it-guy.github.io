@@ -87,4 +87,20 @@ Let u=x-a, du=dx, $$\int_{-\infty}^{+\infty} e^{-\lambda(u)^{2}} du = 1$$
 By [ Integral of Gaussian ](https://quantummechanics.ucsd.edu/ph130a/130_notes/node87.html), <br/>  
 $$A\sqrt{\frac{\pi}{\lambda}}=1$$=> $$A=\sqrt{\frac{\lambda}{\pi}}$$
 (b)
+$$<x> = \int_{-\infty}^{+\infty} x p(x) dx = \sqrt{\frac{\lambda}{\pi}}\int_{-\infty}^{+\infty}xe^{-\lambda(x-a)^{2}} dx$$
+Let u=x-a, du=dx,
+$$<x> = \sqrt{\frac{\lambda}{\pi}}\int_{-\infty}^{+\infty}(u+a)e^{-\lambda(x-a)^{2}} du$$
+$$\sqrt{\frac{\lambda}{\pi}}(\int_{-\infty}^{+\infty}ue^{-\lambda(x-a)^{2}}du + a\int_{-\infty}^{+\infty}e^{-\lambda(x-a)^{2}}du)$$
+As $$ue^{-\lambda(x-a)^{2}}$$ is odd function, 
+$$<x> = \sqrt{\frac{\lambda}{\pi}}(0 + a\sqrt{\frac{\pi}{\lambda}})=a$$
+<br/>  
+$$<x^{2}> = \int_{-\infty}^{+\infty} x^{2} p(x) dx = \sqrt{\frac{\lambda}{\pi}}\int_{-\infty}^{+\infty}x^{2}e^{-\lambda(x-a)^{2}} dx$$
+Let u=x-a, du=dx,
+$$<x^{2}> = \sqrt{\frac{\lambda}{\pi}}\int_{-\infty}^{+\infty}(u+a)^{2}e^{-\lambda(x-a)^{2}} du$$
+$$=\sqrt{\frac{\lambda}{\pi}}\int_{-\infty}^{+\infty}(u^{2}+2ua+a^{2})e^{-\lambda(x-a)^{2}} du$$
+$$=\sqrt{\frac{\lambda}{\pi}}((\int_{-\infty}^{+\infty}u^{2}e^{-\lambda(x-a)^{2}}) du+ 0 + a^{2}\sqrt{\frac{\pi}{\lambda}})$$
+By [the formula of Gaussian Integral](http://www.hep.upenn.edu/~johnda/Papers/GausInt.pdf),
+$$=\sqrt{\frac{\lambda}{\pi}}(\frac{1}{2\lambda}\sqrt{\frac{\pi}{\lambda}} + a^{2}\sqrt{\frac{\pi}{\lambda}})=\frac{1}{2\lambda} + a^{2}$$
+<br/>  
+$$\sigma = \sqrt{<x^{2}>-<x>^{2}} = \sqrt{\frac{1}{2\lambda} + a^{2} - a^{2}} = \frac{1}{\sqrt{2\lambda}$$
 ![1.3cAns](/img/intro-quantumn-mechanics/1-3c.png)
