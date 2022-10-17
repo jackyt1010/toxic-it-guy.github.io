@@ -75,7 +75,7 @@ Consider the gaussian distribution<br/>
 $$p(x) = Ae^{-\lambda(x-a)^{2}}$$
 where $$A, a, \text{and  } \lambda$$ 
 are positive real constants. (Look up any integrals you need.)<br/>  
-(a)	Use the statistical qquation  to determine A.<br/>  
+(a)	Use the statistical equation  to determine A.<br/>  
 (b)	Find $$\<x\>,  \<x^{2}\>, A.$$<br/>  
 (c)	Sketch the graph of p(x).<br/>  
 <br/>  
