@@ -92,9 +92,9 @@ The flag is ```DUCTF{i_d0nt_th1nk_th4ts_h0w_1t_w0rks_actu4lly_92f45fb961ecf420}`
    # Hack the Boo CTF 2022
  
  Hack The Boo CTF competition 2022 was organized by Hack The Box.This contest was held from Sat, 22 Oct. 2022, 21:00 HKT — Thu, 27 Oct. 2022, 21:59 HKT.
- Coached by the PolyU EIE mphil student Hopkins Kong, I was responsible for helping to solve the majorities of Crypto challenges during the contest.Our team
+ Coached by the PolyU EIE mphil student [Hopkins Kong](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjThPqvxLD7AhXbd94KHbdyD44QFnoECBoQAQ&url=https%3A%2F%2Fhk.linkedin.com%2Fin%2Fhopkins-k-805ba615b%3Ftrk%3Dpublic_profile_browsemap_profile-result-card_result-card_full-click&usg=AOvVaw1KFc1fu1v9QRAoRj4-1YVw), I was responsible for helping to solve the majorities of Crypto challenges during the contest.Our team
  [NuttyShell](https://ctftime.org/team/72265) was ranked 1 over 6350+ teams from worldwide([News](https://www.polyu.edu.hk/eie/news-and-events/news/2022/2022-11-09-champion-of-hacktheboo-ctf/)).
- and also the fastest team to solve all the challenges during th4e contest.
+ and also the fastest team to solve all the challenges during the contest.
    
    ## Gonna-Lift-Em-All
  We are given the following challenge script:
