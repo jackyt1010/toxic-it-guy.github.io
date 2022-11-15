@@ -17,7 +17,7 @@ katex: true
 ---
 
 <!--more-->
-  #DownUnder CTF 2022
+   #DownUnder CTF 2022
 
 DownUnderCTF is the largest online Australian run Capture The Flag (CTF) competition with over 4000+ registered users and over 2100+ registered teams (2021).
 This contest was held from Fri, 23 Sept. 2022, 17:30 HKT — Sun, 25 Sept. 2022, 17:30 HKT
@@ -89,13 +89,13 @@ DUCTF{i_d0nt_th1nk_th4ts_h0w_1t_w0rks_actu4lly_92f45fb961ecf420}
 
 The flag is ```DUCTF{i_d0nt_th1nk_th4ts_h0w_1t_w0rks_actu4lly_92f45fb961ecf420}```
 
-  #Hack the Boo CTF 2022
+   #Hack the Boo CTF 2022
  
  Hack The Boo CTF competition 2022 was organized by Hack The Box.This contest was held from Sat, 22 Oct. 2022, 21:00 HKT — Thu, 27 Oct. 2022, 21:59 HKT.
  Coached by the PolyU EIE mphil student Hopkins Kong, I was responsible for helping to solve the majorities of Crypto challenges during the contest.Our team
  [NuttyShell](https://ctftime.org/team/72265) was ranked 1 over 6350+ teams from worldwide([News](https://www.polyu.edu.hk/eie/news-and-events/news/2022/2022-11-09-champion-of-hacktheboo-ctf/)).
  and also the fastest team to solve all the challenges during th4e contest.
-  ##Gonna-Lift-Em-All
+   ##Gonna-Lift-Em-All
  We are given the following challenge script:
  
 ```
@@ -145,7 +145,7 @@ print(long_to_bytes(m))
 ```
 Hence, the flag for this challenge is ```HTB{b3_c4r3ful_wh3n_1mpl3m3n71n6_cryp705y573m5_1n_7h3_mul71pl1c471v3_6r0up}```
 
- ##Fast Carmichael
+   ##Fast Carmichael
 
 ```
 from secret import FLAG
@@ -243,7 +243,7 @@ To bypass the server's condition, we need to generate a pesduorandom number with
  we can then immediately construct a carmichael number which are Strong Pseudoprimes to Several Bases and we just need to send it to the server to get the flag.
 ```99597527340020670697596886062721977401836948352586238797499761849061796816245727295797460642211895009946326533856101876592304488359235447755504083536903673408562244316363452203072868521183142694959128745107323188995740668134018742165409361423628304730379121574707411453909999845745038957688998441109092021094925758212635651445626620045726265831347783805945477368631216031783484978212374792517000073275125176790602508815912876763504846656547041590967709195413101791490627310943998497788944526663960420235802025853374061708569334400472016398343229556656720912631463470998180176325607452843441554359644313713952036867```
 
- ##Whole Lotta Candy
+   ##Whole Lotta Candy
 
 Two programs are given, one is server and the other is AES encrypt, where the server can choose the encryption mode to encrypt and get the encrypted flag:
 
