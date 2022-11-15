@@ -17,7 +17,8 @@ katex: true
 ---
 
 <!--more-->
-   #DownUnder CTF 2022
+   
+   ##DownUnder CTF 2022
 
 DownUnderCTF is the largest online Australian run Capture The Flag (CTF) competition with over 4000+ registered users and over 2100+ registered teams (2021).
 This contest was held from Fri, 23 Sept. 2022, 17:30 HKT — Sun, 25 Sept. 2022, 17:30 HKT
@@ -89,12 +90,13 @@ DUCTF{i_d0nt_th1nk_th4ts_h0w_1t_w0rks_actu4lly_92f45fb961ecf420}
 
 The flag is ```DUCTF{i_d0nt_th1nk_th4ts_h0w_1t_w0rks_actu4lly_92f45fb961ecf420}```
 
-   #Hack the Boo CTF 2022
+   ##Hack the Boo CTF 2022
  
  Hack The Boo CTF competition 2022 was organized by Hack The Box.This contest was held from Sat, 22 Oct. 2022, 21:00 HKT — Thu, 27 Oct. 2022, 21:59 HKT.
  Coached by the PolyU EIE mphil student Hopkins Kong, I was responsible for helping to solve the majorities of Crypto challenges during the contest.Our team
  [NuttyShell](https://ctftime.org/team/72265) was ranked 1 over 6350+ teams from worldwide([News](https://www.polyu.edu.hk/eie/news-and-events/news/2022/2022-11-09-champion-of-hacktheboo-ctf/)).
  and also the fastest team to solve all the challenges during th4e contest.
+   
    ##Gonna-Lift-Em-All
  We are given the following challenge script:
  
