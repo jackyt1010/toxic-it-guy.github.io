@@ -92,8 +92,8 @@ The flag is ```DUCTF{i_d0nt_th1nk_th4ts_h0w_1t_w0rks_actu4lly_92f45fb961ecf420}`
    # Hack the Boo CTF 2022
  
  Hack The Boo CTF competition 2022 was organized by Hack The Box.This contest was held from Sat, 22 Oct. 2022, 21:00 HKT — Thu, 27 Oct. 2022, 21:59 HKT.
- Coached by the PolyU EIE mphil student [Hopkins Kong](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjThPqvxLD7AhXbd94KHbdyD44QFnoECBoQAQ&url=https%3A%2F%2Fhk.linkedin.com%2Fin%2Fhopkins-k-805ba615b%3Ftrk%3Dpublic_profile_browsemap_profile-result-card_result-card_full-click&usg=AOvVaw1KFc1fu1v9QRAoRj4-1YVw), I was responsible for helping to solve the majorities of Crypto challenges during the contest.Our team
- [NuttyShell](https://ctftime.org/team/72265) was ranked 1 over 6350+ teams from worldwide([News](https://www.polyu.edu.hk/eie/news-and-events/news/2022/2022-11-09-champion-of-hacktheboo-ctf/)).
+ Coached by the PolyU EIE MPhil student [Hopkins Kong](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjThPqvxLD7AhXbd94KHbdyD44QFnoECBoQAQ&url=https%3A%2F%2Fhk.linkedin.com%2Fin%2Fhopkins-k-805ba615b%3Ftrk%3Dpublic_profile_browsemap_profile-result-card_result-card_full-click&usg=AOvVaw1KFc1fu1v9QRAoRj4-1YVw), I was responsible for helping to solve the majorities of Crypto challenges during the contest.Our team
+ [NuttyShell](https://ctftime.org/team/72265) was ranked 1 over 6350+ teams from worldwide([News](https://www.polyu.edu.hk/eie/news-and-events/news/2022/2022-11-09-champion-of-hacktheboo-ctf/))
  and also the fastest team to solve all the challenges during the contest.
    
    ## Gonna-Lift-Em-All
@@ -129,7 +129,7 @@ def main():
 if __name__ == "__main__":
   main()
 ```
-By the2 equations: c1 = g*y %p; c2 = m*pow(h,y,p)%p where p, g, h, c1, c2 are known, we can then get y through the first formula and then through the second formula get m
+By the 2 equations: c1 = g*y %p; c2 = m*pow(h,y,p)%p where p, g, h, c1, c2 are known, we can then get y through the first formula and then through the second formula get m
 
 ```
 from Crypto.Util.number import *
@@ -239,10 +239,10 @@ if __name__ == '__main__':
     server = ReusableTCPServer(("0.0.0.0", 1337), Handler)
     server.serve_forever()
 ```
-To bypass the server's condition, we need to generate a pesduorandom number with bits length from 600 to 1500.By reading the 
+To bypass the server's condition, we need to generate a pesduoprime number with bits length from 600 to 1500.By reading the 
 [souce code searched from Internet](https://gist.github.com/keltecc/b5fbd533d2f203e810b43c26ff9d17cc) based on the [research paper by (François Arnault. 1995.)](https://doi.org/10.1006/jsco.1995.1042),
  we can then immediately construct a carmichael number which are Strong Pseudoprimes to Several Bases and we just need to send it to the server to get the flag.
-```99597527340020670697596886062721977401836948352586238797499761849061796816245727295797460642211895009946326533856101876592304488359235447755504083536903673408562244316363452203072868521183142694959128745107323188995740668134018742165409361423628304730379121574707411453909999845745038957688998441109092021094925758212635651445626620045726265831347783805945477368631216031783484978212374792517000073275125176790602508815912876763504846656547041590967709195413101791490627310943998497788944526663960420235802025853374061708569334400472016398343229556656720912631463470998180176325607452843441554359644313713952036867```
+```
 
    ## Whole Lotta Candy
 
