@@ -242,7 +242,6 @@ if __name__ == '__main__':
 To bypass the server's condition, we need to generate a pesduoprime number with bits length from 600 to 1500.By reading the 
 [souce code searched from Internet](https://gist.github.com/keltecc/b5fbd533d2f203e810b43c26ff9d17cc) based on the [research paper by (François Arnault. 1995.)](https://doi.org/10.1006/jsco.1995.1042),
  we can then immediately construct a carmichael number which are Strong Pseudoprimes to Several Bases and we just need to send it to the server to get the flag.
-```
 
    ## Whole Lotta Candy
 
@@ -331,6 +330,8 @@ if __name__ == "__main__":
     server = ReusableTCPServer(("0.0.0.0", 1337), Handler)
     server.serve_forever()
 ```
+	
+
 Here, only the CTR mode is required to be selected for solving the challenge.
 The loophole is that when selecting the encryption mode, the optional items are input by the user, so that the CTR encryption mode can be selected. In the CTR encryption, z0, z1... are first generated, and then XORed with the plaintext to obtain the ciphertext. In this way, you only need to input a plaintext to get the encrypted result, and then get z and XOR it with the ciphertext of flag. Here, I just entered several zeros
 and sent the json to the server.
