@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Self-Education Theoretical Physics [Mathematical Methods for physics and engineering] Chapter 11 Exercises (Part 1)"
+title:      "Theoretical Physics [Mathematical Methods for physics and engineering] Chapter 11 Exercises (Part 1)"
 subtitle:   ""
 description: ""
 date:     2022-10-04

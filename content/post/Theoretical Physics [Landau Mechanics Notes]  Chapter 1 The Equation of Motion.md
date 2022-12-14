@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Self-Education Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion"
+title:      "Theoretical Physics [Landau Mechanics Notes]  Chapter 1: The Equation of Motion"
 subtitle:   ""
 description: ""
 date:     2022-08-23

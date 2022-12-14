@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Self-Education Theoretical Physics [Landau Mechanics Notes] Chapter 2: Conservation Laws(Part 2)"
+title:      "Theoretical Physics [Landau Mechanics Notes] Chapter 2: Conservation Laws(Part 2)"
 subtitle:   ""
 description: ""
 date:     2022-09-18
