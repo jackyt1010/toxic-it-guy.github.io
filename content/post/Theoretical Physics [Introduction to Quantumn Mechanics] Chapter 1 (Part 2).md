@@ -27,6 +27,25 @@ $$=\frac{A^{2}}{a^{2}} \frac{a^{3}}{3} + \frac{A^{2}}{(b-a)^{2}} \int_{a}^{b}(b-
 $$=\frac{A^{2}}{a^{2}} \frac{a^{3}}{3} + \frac{A^{2}}{(b-a)^{2}}[-\frac{(b-x)^{3}}{3}] \rvert_{a}^{b}$$
 $$=\frac{A^{2}a}{3} + \frac{A^{2}(b-a)}{3}$$
 => $$A = \sqrt{\frac{3}{b}}$$
+
+(b)
+![1.4b](/img/intro-quantumn-mechanics/1-4b.png)
+
+(c)
+At x=a
+
+(d)
+Let $$\int_{a}^{b}{| Ψ (x, t)|^{2}} dx = 1$$
+$$\int_{0}^{a}{| A |^{2}} \frac{x^{2}}{a^{2}} dx + \int_{a}^{b}{| A |^{2}} \frac{(b-x)^{2}}{(b-a)^{2}} dx = 1$$
+$$=\frac{A^{2}}{a^{2}} \frac{a^{3}}{3} + \frac{A^{2}}{(b-a)^{2}} \int_{a}^{b}(b-x)^2dx $$
+$$=\frac{A^{2}}{a^{2}} \frac{a^{3}}{3} + \frac{A^{2}}{(b-a)^{2}}[-\frac{(b-x)^{3}}{3}] \rvert_{a}^{b}$$
+$$=\frac{A^{2}a}{3} + \frac{A^{2}(b-a)}{3}$$
+=> $$A = \sqrt{\frac{3}{b}}$$
+
+$$P = \int_{0}^{a} A^{2} \frac{x^{2}}{a^{2}} dx=\frac{A^{2}}{a^{2}}(\frac{x^{3}}{3})\rvert_{0}^{a}=\frac{A^{2}a}{3}=(\sqrt(\frac{3}{b}))^{2}\frac{a}{3} = \frac{a}{b}$$
+
+When $$b=a, P=1$$
+When $$b=2a, P=\frac{1}{2}$$
   
   
   
