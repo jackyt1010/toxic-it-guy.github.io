@@ -51,7 +51,12 @@ Q.E.D
 Problem 1.5 
 (a)
 Let $$\int^{\infty}_{-\infty}{|Ψ|^{2} }dx = 1$$
-$$\int^{\infty}_{-\infty}{Ψ \bar{Ψ}} dx= 1$$
+$$\int^{\infty}_{-\infty}A^{2}e^{-2\lambda|x|}e^{-it\omega}e^{it\omega} dx = 1$$
+$$A^{2}\int^{\infty}_{-\infty}e^{-2\lambda|x|}dx = 1$$
+$$2A^{2}\int^{\infty}_{0}e^{-2\lambda|x|}dx = 1$$
+$$2A^{2} \frac{1}{-2\lambda}(e^{-2\lambda|x|})\rvert_{0}^{\infty} = 1$$
+$$2A^{2} \frac{1}{-2\lambda}(0-1) = 1$$
+$$A = \sqrt{\lambda}$$
 
 (b)
 $$\<x\> =  \int_{-\infty}^{\infty}x\lambda e^{-2\lambda|x|} dx = 0, \text{as its odd function}$$
