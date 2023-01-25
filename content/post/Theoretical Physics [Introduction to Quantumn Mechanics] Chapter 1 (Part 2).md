@@ -51,7 +51,7 @@ Q.E.D
 Problem 1.5 
 (a)
 Let $$\int^{\infty}_{-\infty}{|Ψ|^{2} }dx = 1$$
-
+$$\int^{\infty}_{-\infty}{Ψ\bar{Ψ}} = 1$$
 (b)
 $$\<x\> =  \int_{-\infty}^{\infty}x\lambda e^{-2\lambda|x|} dx = 0, \text{as its odd function}$$
 $$\<x^{2}\> = \int_{-\infty}^{\infty}x^{2}\lambda e^{-2\lambda|x|} dx$$
