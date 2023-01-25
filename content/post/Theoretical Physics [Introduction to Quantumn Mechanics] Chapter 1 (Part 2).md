@@ -43,7 +43,7 @@ When $$b=2a, P=\frac{1}{2}$$
 (e)
 $$<x> = \int_{a}^{b}{x| Ψ (x, t)|^{2}} dx=\int_{0}^{a}{x \frac{A^2x^2}{a^2}} dx + \int_{a}^{b}{x\frac{A^2(b-x)^2}{(b-a)^2}} dx$$
 $$=\frac{A^{2}}{a^{2}}\frac{x^{4}}{4}\rvert_{0}^{a} + \frac{A^{2}}{(b-a)^{2}}\int_{a}^{b}x(b-x)^{2}dx = \frac{3a^2}{4b} + \frac{3}{b(b-a)^2} \int_{a}^{b} (xb^{2} - 2bx^{2} + x^{3})dx$$
-$$= \frac{3a^2}{4b} + \frac{3}{b(b-a)^2} (\frac{b^{2}x^{2}}{2}-\frac{2bx^{3}}{3} + \frac{x^{4}}{4})\rvert_{a}^{b} =\frac{b+2a}{4}$$$$
+$$= \frac{3a^2}{4b} + \frac{3}{b(b-a)^2} (\frac{b^{2}x^{2}}{2}-\frac{2bx^{3}}{3} + \frac{x^{4}}{4})\rvert_{a}^{b} =\frac{b+2a}{4}$$
 Q.E.D
 
   
