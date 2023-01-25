@@ -46,6 +46,26 @@ $$=\frac{A^{2}}{a^{2}}\frac{x^{4}}{4}\rvert_{0}^{a} + \frac{A^{2}}{(b-a)^{2}}\in
 $$= \frac{3a^2}{4b} + \frac{3}{b(b-a)^2} (\frac{b^{2}x^{2}}{2}-\frac{2bx^{3}}{3} + \frac{x^{4}}{4})\rvert_{a}^{b} =\frac{b+2a}{4}$$
 Q.E.D
 
-  
-  
+Problem 1.5
+![1.5](/img/intro-quantumn-mechanics/1-5.png)  
+(a)
+Let $$\int^{\infty}_{-\infty}|Ψ|^{2} dx = 1$$
+$$\int^{\infty}_{-\infty}ΨΨ* dx = 1$$
+$$\int^{\infty}_{-\infty}A^{2}e^{-2\lambda|x|}e^{-it\omega}e^{it\omega} dx = 1$$
+$$A^{2}\int^{\infty}_{-\infty}e^{-2\lambda|x|}dx = 1$$
+$$2A^{2}\int^{\infty}_{0}e^{-2\lambda|x|}dx = 1$$
+$$2A^{2} \frac{1}{-2\lambda}(e^{-2\lambda|x|})\rvert_{0}^{\infty} = 1$$
+$$2A^{2} \frac{1}{-2\lambda}(0-1) = 1$$
+$$A = \sqrt{\lambda}$$
 
+(b)
+$$\<x\> =  \int_{-\infty}^{\infty}x\lambda e^{-2\lambda|x|} dx = 0$$, as its odd function
+$$\<x^{2}\> = \int_{-\infty}^{\infty}x^{2}\lambda e^{-2\lambda|x|} dx$$
+$$= 2\lambda \int_{0}^{\infty}x^{2}e^{-2\lambda|x|} dx$$
+By the formula of exponential integral,
+$$=2\lambda ( 2! (\frac{1}{2\lambda})^{3})=\frac{1}{2\lambda^{2}}$$
+
+(c)
+$$\sigma^{2} = <X^{2}> - <X>^{2} = \frac{1}{2\lambda^{2}} - 0 = \frac{1}{2\lambda^{2}}$$
+$$\sigma = \frac{1}{\lambda \sqrt{2}}$$
+![1.5c](/img/intro-quantumn-mechanics/1-5c.png)
