@@ -50,23 +50,23 @@ Q.E.D
 ![1.5](/img/intro-quantumn-mechanics/1-5.png) 
 Problem 1.5 
 (a)
-Let $$\int^{\infty}_{-\infty}|Ψ|^{2} dx = 1$$
-$$\int^{\infty}_{-\infty}Ψ\bar{Ψ} = 1$$
-$$\int^{\infty}_{-\infty}A^{2}e^{-2\lambda|x|}e^{-it\omega}e^{it\omega} dx = 1$$
-$$A^{2}\int^{\infty}_{-\infty}e^{-2\lambda|x|}dx = 1$$
-$$2A^{2}\int^{\infty}_{0}e^{-2\lambda|x|}dx = 1$$
+Let $$\int^{\infty}_{-\infty}{|Ψ|^{2} }dx = 1$$
+$$\int^{\infty}_{-\infty}{Ψ\bar{Ψ}} = 1$$
+$$\int^{\infty}_{-\infty}{A^{2}e^{-2\lambda|x|}e^{-it\omega}e^{it\omega}} dx = 1$$
+$$A^{2}\int^{\infty}_{-\infty}{e^{-2\lambda|x|}}dx = 1$$
+$$2A^{2}\int^{\infty}_{0}{e^{-2\lambda|x|}}dx = 1$$
 $$2A^{2} \frac{1}{-2\lambda}(e^{-2\lambda|x|})\rvert_{0}^{\infty} = 1$$
 $$2A^{2} \frac{1}{-2\lambda}(0-1) = 1$$
 $$A = \sqrt{\lambda}$$
 
 (b)
-$$\<x\> =  \int_{-\infty}^{\infty}x\lambda e^{-2\lambda|x|} dx = 0$$, as its odd function
+$$\<x\> =  \int_{-\infty}^{\infty}x\lambda e^{-2\lambda|x|} dx = 0, as its odd function$$
 $$\<x^{2}\> = \int_{-\infty}^{\infty}x^{2}\lambda e^{-2\lambda|x|} dx$$
 $$= 2\lambda \int_{0}^{\infty}x^{2}e^{-2\lambda|x|} dx$$
 By the formula of exponential integral,
 $$=2\lambda ( 2! (\frac{1}{2\lambda})^{3})=\frac{1}{2\lambda^{2}}$$
 
 (c)
-$$\sigma^{2} = <X^{2}> - <X>^{2} = \frac{1}{2\lambda^{2}} - 0 = \frac{1}{2\lambda^{2}}$$
+$$\sigma^{2} = \<X^{2}\> - \<X\>^{2} = \frac{1}{2\lambda^{2}} - 0 = \frac{1}{2\lambda^{2}}$$
 $$\sigma = \frac{1}{\lambda \sqrt{2}}$$
 ![1.5c](/img/intro-quantumn-mechanics/1-5c.png)
