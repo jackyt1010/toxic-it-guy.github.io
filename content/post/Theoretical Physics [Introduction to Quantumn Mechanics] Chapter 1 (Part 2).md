@@ -64,6 +64,7 @@ $$=2\lambda ( 2! (\frac{1}{2\lambda})^{3})=\frac{1}{2\lambda^{2}}$$
 $$\sigma^{2} = \<X^{2}\> - \<X\>^{2} = \frac{1}{2\lambda^{2}} - 0 = \frac{1}{2\lambda^{2}}$$
 $$\sigma = \frac{1}{\lambda \sqrt{2}}$$
 ![1.5c](/img/intro-quantumn-mechanics/1-5c.png)
+Q.E.D
   ##  1.5 Momentumn
 ![1.7](/img/intro-quantumn-mechanics/1-7.png) 
 $$\<p\> = m \frac{d\<x\>}{dt}$$
@@ -73,3 +74,4 @@ By Scrodinger equation,
 $$\frac{\partial Ψ\*}{\partial t} = -i \frac{\hbar}{2m} \frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*$$
 $$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*) \frac{\partial Ψ}{\partial x} + Ψ\*\frac{\partial}{\partial x}( i \frac{\hbar}{2m}\frac{\partial^{2} Ψ}{\partial x^{2}} - \frac{i}{\hbar}VΨ)} dx$$
 $$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}  +  i \frac{\hbar}{2m}\frac{\partial^{3} Ψ}{\partial x^{3}}) + (\frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\partial x}  - \frac{i}{\hbar}Ψ\*\frac{\partial }{\partial x} (VΨ))} dx$$
+As $$-i\hbar(\int{-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x} dx + \frac{i\hbar}{2m}(Ψ\*\frac{\partial^{2} Ψ}{\partial x^{2}} - \int{\frac{\partial^{2} Ψ}{\partial x^{2}} \frac{\partial Ψ\*}{\partial x^}}dx))$$
