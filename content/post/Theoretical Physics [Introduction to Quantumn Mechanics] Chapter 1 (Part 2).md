@@ -78,6 +78,6 @@ As $$-i\hbar(\int{-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\fr
 $$=-i\hbar(\int{-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}} dx + 0 - \frac{i\hbar}{2m}(\frac{\partial Ψ\}{\partial x}\frac{\partial Ψ\*}{\partial x}\rvert_{-\infty}^{\infty} - \int{\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}} dx ))$$
 $$=-i\hbar(0+0)=0$$
 $$\frac{d\<p\>}{dt} = -i\hbar \int{\frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\partial x} - \frac{i}{\hbar}VΨ\* Ψ\frac{\partial V}{\partial x} - \frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\partial x}}dx$$
-$$=-i\hbar\int{-\frac{i}{\hbar}|Ψ|^{2}\frac{\partial V}{\partial x}dx$$
+$$=-i\hbar\int{(-\frac{i}{\hbar}|Ψ|^{2}\frac{\partial V}{\partial x})}dx$$
 =\<-\frac{\partial V}{\partial x}\>
 Q.E.D
