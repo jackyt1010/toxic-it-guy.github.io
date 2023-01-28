@@ -70,5 +70,5 @@ $$\<p\> = m \frac{d\<x\>}{dt}$$
 $$\frac{d\<p\>}{dt} = \frac{d^{2}\<x\>}{dt^{2}} = -i\hbar\int{\frac{\partial}{\partial t}(Ψ \frac{\partial Ψ}{\partial x})}dx$$
 $$= -i\hbar\int{\frac{\partial Ψ\*}{\partial t} \frac{\partial Ψ}{\partial x} + Ψ\*\frac{\partial^{2} Ψ}{\partial t \partial x}} dx$$
 By Scrodinger equation,
-$$=\frac{\partial Ψ\*}{\partial t} = -i \frac{\hbar}{2m} \frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*$$
-$$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*) \frac{\partial Ψ}{\partial x} + Ψ\*\frac{\partial}{\partial x}( i \frac{\hbar}{2m}{\partial^{2} Ψ}{\partial x^{2}} - \frac{i}{\hbar}VΨ) dx$$
+$$\frac{\partial Ψ\*}{\partial t} = -i \frac{\hbar}{2m} \frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*$$
+$$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*) \frac{\partial Ψ}{\partial x} + Ψ\*\frac{\partial}{\partial x}( i \frac{\hbar}{2m}{\partial^{2} Ψ}{\partial x^{2}} - \frac{i}{\hbar}VΨ)} dx$$
