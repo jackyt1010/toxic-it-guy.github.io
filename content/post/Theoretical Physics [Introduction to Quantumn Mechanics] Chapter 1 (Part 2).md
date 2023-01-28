@@ -66,4 +66,6 @@ $$\sigma = \frac{1}{\lambda \sqrt{2}}$$
 ![1.5c](/img/intro-quantumn-mechanics/1-5c.png)
   ##  1.5 Momentumn
 ![1.7](/img/intro-quantumn-mechanics/1-7.png) 
-  
+$$<p> = m \frac{d<x>}{dt}$$
+$$\frac{d<p>}{dt} = \frac{d^{2}<x>}{dt^{2}} = -i\hbar\int{\frac{\partial}{\partial t}(Ψ \frac{\partial Ψ}{\partial x})}dx$$
+$$= -i\hbar\int{\frac{\partial Ψ\*}{\partial t} \frac{\partial Ψ}{\partial x} + Ψ\*\frac{\partial^{2} Ψ}{\partial t \partial x} dx$$
