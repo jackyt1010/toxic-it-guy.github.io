@@ -72,4 +72,4 @@ $$= -i\hbar\int{\frac{\partial Ψ\*}{\partial t} \frac{\partial Ψ}{\partial x} 
 By Scrodinger equation,
 $$\frac{\partial Ψ\*}{\partial t} = -i \frac{\hbar}{2m} \frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*$$
 $$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*) \frac{\partial Ψ}{\partial x} + Ψ\*\frac{\partial}{\partial x}( i \frac{\hbar}{2m}\frac{\partial^{2} Ψ}{\partial x^{2}} - \frac{i}{\hbar}VΨ)} dx$$
-$$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}} +  i \frac{\hbar}{2m}\frac{\partial^{3} Ψ}{\partial x^{3}Ψ\*}) + (\frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\partial x}  - \frac{i}{\hbar}Ψ\*\frac{\partial }{partial VΨ})} dx$$
+$$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}} +  i \frac{\hbar}{2m}\frac{\partial^{3} Ψ}{\partial x^{3}}) + (\frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\partial x}  - \frac{i}{\hbar}Ψ\*\frac{\partial }{\partial} (VΨ)} dx$$
