@@ -81,3 +81,8 @@ $$\frac{d\<p\>}{dt} = -i\hbar \int{\frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\part
 $$=-i\hbar\int{(-\frac{i}{\hbar}|Ψ|^{2}\frac{\partial V}{\partial x})}dx$$
 $$=\< -\frac{\partial V}{\partial x} \>$$
 Q.E.D
+  ##  1.6 The Uncertainty Principle
+![1.9](/img/intro-quantumn-mechanics/1-9.png) 
+  ##  Further Problems For Chapter 1
+![1.14](/img/intro-quantumn-mechanics/1-14.png)
+![1.15](/img/intro-quantumn-mechanics/1-15.png)
