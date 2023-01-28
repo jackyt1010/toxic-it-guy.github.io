@@ -64,3 +64,6 @@ $$=2\lambda ( 2! (\frac{1}{2\lambda})^{3})=\frac{1}{2\lambda^{2}}$$
 $$\sigma^{2} = \<X^{2}\> - \<X\>^{2} = \frac{1}{2\lambda^{2}} - 0 = \frac{1}{2\lambda^{2}}$$
 $$\sigma = \frac{1}{\lambda \sqrt{2}}$$
 ![1.5c](/img/intro-quantumn-mechanics/1-5c.png)
+  ##  1.5 Momentumn
+![1.7](/img/intro-quantumn-mechanics/1-7.png) 
+  
