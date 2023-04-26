@@ -84,7 +84,15 @@ $$=\< -\frac{\partial V}{\partial x} \>$$
 Q.E.D
   ##  1.6 The Uncertainty Principle
 ![1.9](/img/intro-quantumn-mechanics/1-9.png) 
+Problem 1.9
+(a)
+$$Let \int_{-\infty}^{+\infty} |Ψ(x, t)|^{2}dx = 1$$
+$$\int_{-\infty}^{+\infty} A^{2}(e^{-a(\frac{mx^{2}}{h}+it)} e^{-a(\frac{mx^{2}}{h}-it)})dx = 1$$
+$$\int_{-\infty}^{+\infty} A^{2}e^{-2a(\frac{mx^{2}}{h})}dx = 1$$
+By the formula of Guassian Integral,
+$$A^{2} \sqrt{\frac{h\pi}{2am}} = 1$$
+$$A=(\frac{2am}{h\pi})^{\frac{1}{4}}$$
   ##  Further Problems For Chapter 1
-![1.14](/img/intro-quantumn-mechanics/1-14.png)
+![1.14](/img/intro-quantumn-mechanics/1-14.png)$
 
 ![1.15](/img/intro-quantumn-mechanics/1-15.png) 
