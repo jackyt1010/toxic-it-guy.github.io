@@ -107,7 +107,8 @@ $$= -\frac{2ma}{\hbar}(Ψ -\frac{2max^{2}}{\hbar}Ψ)$$
 $$=  -\frac{2ma}{\hbar}(1 -\frac{2max^{2}}{\hbar})Ψ$$
 By the Schrodinger Equation,
 $$i\hbar(-aiΨ) = -\frac{\hbar^{2}}{2m}(-\frac{2ma}{\hbar}(1-\frac{2max^{2}}{\hbar})Ψ) + VΨ$$
-$$a\hbar = a\hbar - 2ma^{2}x^{2} + V =>V=2ma^{2}x^{2}$$
+$$a\hbar = a\hbar - 2ma^{2}x^{2} + V$$ 
+$$V=2ma^{2}x^{2}$$
 
   ##  Further Problems For Chapter 1
 ![1.14](/img/intro-quantumn-mechanics/1-14.png)$
