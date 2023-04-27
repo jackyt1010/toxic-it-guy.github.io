@@ -99,7 +99,7 @@ $$= Ae^{-a(\frac{mx^{2}}{\hbar}}(e^{-iat})(-ia) = -iaΨ$$
 
 $$\frac{\partial Ψ}{\partial x} = \frac{\partial }{\partial x}(A e^{-a(\frac{mx^{2}}{\hbar}+it)})$$
 $$= A\frac{\partial }{\partial x}(e^{-a(\frac{mx^{2}}{\hbar})})(e^{-iat})$$
-$$= Ae^{-iat}e^{-a(\frac{mx^{2}}{\hbar}}(-\frac{2xma}{\hbar})$$
+$$= Ae^{-iat}e^{-a(\frac{mx^{2}}{\hbar})}(-\frac{2xma}{\hbar})$$
 $$=-\frac{2xma}{\hbar}Ψ $$
 
 $$\frac{\partial^{2} Ψ}{\partial x^{2}} = -\frac{2ma}{\hbar}(Ψ + x\frac{\partial Ψ}{\partial x}) $$
