@@ -94,18 +94,18 @@ $$A^{2} \sqrt{\frac{h\pi}{2am}} = 1$$
 $$A=(\frac{2am}{h\pi})^{\frac{1}{4}}$$
 (b)
 $$\frac{\partial Ψ}{\partial t} = \frac{\partial }{\partial t}(A e^{-a(\frac{mx^{2}}{\hbar}+it)}) $$
-$$                              = Ae^{-a(\frac{mx^{2}}{\hbar}\frac{\partial }{\partial t}(e^{-iat})     $$
-$$                              = Ae^{-a(\frac{mx^{2}}{\hbar}(e^{-iat})(-ia) = -iaΨ        $$
+$$                              = Ae^{-a(\frac{mx^{2}}{\hbar}}\frac{\partial }{\partial t}(e^{-iat})     $$
+$$                              = Ae^{-a(\frac{mx^{2}}{\hbar}}(e^{-iat})(-ia) = -iaΨ        $$
 
 $$\frac{\partial Ψ}{\partial x} = \frac{\partial }{\partial x}(A e^{-a(\frac{mx^{2}}{\hbar}+it)})$$
 $$                              = A\frac{\partial }{\partial x}(e^{-a(\frac{mx^{2}}{\hbar})(e^{-iat}) $$
 $$                              = Ae^{-iat}e^{-a(\frac{mx^{2}}{\hbar}(-\frac{2xma}}{\hbar})$$
 $$                              =  -\frac{2xma}}{\hbar}Ψ $$
 
-$$\frac{\partial^{2} Ψ}{\partial x^{2}} = -\frac{2ma}}{\hbar}(Ψ + x\frac{\partial Ψ}{\partial x}) $$
-$$                                      = -\frac{2ma}}{\hbar}(Ψ -\frac{2max^{2}}}{\hbar}Ψ)$$
-$$                                      =  -\frac{2ma}}{\hbar}(1 -\frac{2max^{2}}}{\hbar})Ψ $$
-$$By the Schrodinger Equation, i\hbar(-aiΨ) = -\frac{\hbar^{2}{2m}(-\frac{2ma}}{\hbar}(1-\frac{2max^{2}}}{\hbar})Ψ) + VΨ$$
+$$\frac{\partial^{2} Ψ}{\partial x^{2}} = -\frac{2ma}{\hbar}(Ψ + x\frac{\partial Ψ}{\partial x}) $$
+$$                                      = -\frac{2ma}{\hbar}(Ψ -\frac{2max^{2}}{\hbar}Ψ)$$
+$$                                      =  -\frac{2ma}{\hbar}(1 -\frac{2max^{2}}{\hbar})Ψ $$
+$$By the Schrodinger Equation, i\hbar(-aiΨ) = -\frac{\hbar^{2}{2m}(-\frac{2ma}}{\hbar}(1-\frac{2max^{2}}{\hbar})Ψ) + VΨ$$
 $$a\hbar = a\hbar - 2ma^{2}x^{2} + V$$=>V=2ma^{2}x^{2}
 
   ##  Further Problems For Chapter 1
