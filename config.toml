@@ -17,7 +17,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "Tang Man Kit的博客 | Tang Man Kit's Blog | Jacky Tang's 博客 | Jacky的博客 | Jacky's Blog"
   description = "Jacky Tang, Programmer, Open Source Enthusiast, Computer Science/Physics/Mathematics Learner  | Here is Jacky Tang's blog, discover the bigger world with you."
-  keyword = "Jacky Tang, Tang Man Kit, Jacky, Jacky的网络日志, Jacky的網絡日誌, Jacky的博客, Jacky's Blog, 博客, 个人网站, 個人網站, 互联网, 互聯網, Web, Programming, Competitive Programming, Software Development, Physics, Physical Science, Mathematics, Cryptography, Information Security, CTF, Capture-the-Flag Competition"
+  keyword = "Jacky Tang, Tang Man Kit, Jacky, Jacky的网络日志, Jacky的網絡日誌, Jacky的博客, Jacky's Blog, 博客, 个人网站, 個人網站, 互联网, 互聯網, Web, Programming, Competitive Programming, Software Development, Physics, Physical Science, Mathematics, Cryptography, Information Security, CTF, Capture-the-Flag Competition, China Academy of Science, CAS, the United State, USA"
   slogan = "The road is at the foot, the heart is far away"
 
   image_404 = "img/404-bg.jpg"
@@ -89,8 +89,8 @@ home = ["HTML", "RSS", "Algolia"]
   #git           = "full profile url for git user"
   
   [[params.friend_link]]
-  title = "Linda的博客"
-  href =  "https://zhaozhihan.com"
+  title = "Jacky的博客"
+  href =  "https://jackyt.netlify.app"
 
   [[params.bookmark_link]]
   title =  "Martin Fowler"
@@ -107,7 +107,9 @@ home = ["HTML", "RSS", "Algolia"]
   
 
   [[params.addtional_menus]]
-  title =  "CV"
+  title =  "CV(Professioanl Version)"
+  href = "TangManKit_Resume.pdf"
+  title =  "CV(Fancy Version)"
   href = "TangManKit_CV.pdf"
 
 [outputFormats.Algolia]
@@ -134,5 +136,5 @@ params = ["categories", "tags"]
 [sitemap]
   changefreq = "always"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = 1
 
