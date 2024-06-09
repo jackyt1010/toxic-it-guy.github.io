@@ -1,7 +1,7 @@
 #enableRobotsTXT = true
 baseurl = "https://jackyt.netlify.app"
 title = "Jacky Tang's blog"
-theme = "cleanwhite"
+#theme = "cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
