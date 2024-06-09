@@ -109,6 +109,7 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.addtional_menus]]
   title =  "CV(Professioanl Version)"
   href = "TangManKit_Resume.pdf"
+ [[params.addtional_menus]]
   title =  "CV(Fancy Version)"
   href = "TangManKit_CV.pdf"
 
