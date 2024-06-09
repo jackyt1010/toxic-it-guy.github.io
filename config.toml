@@ -17,7 +17,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "Tang Man Kit的博客 | Tang Man Kit's Blog | Jacky Tang's 博客 | Jacky的博客 | Jacky's Blog"
   description = "Jacky Tang, Programmer, Open Source Enthusiast, Computer Science/Physics/Mathematics Learner  | Here is Jacky Tang's blog, discover the bigger world with you."
-  keyword = "Jacky Tang, Tang Man Kit, Jacky, Jacky的网络日志, Jacky的網絡日誌, Jacky的博客, Jacky's Blog, 博客, 个人网站, 個人網站, 互联网, 互聯網, Web, Programming, Competitive Programming, Software Development, Physics, Physical Science, Mathematics, Cryptography, Information Security, CTF, Capture-the-Flag Competition, China Academy of Science, CAS, the United State, USA"
+  keyword = "Jacky Tang, Tang Man Kit, Jacky, jackyt, Jacky的网络日志, Jacky的網絡日誌, Jacky的博客, Jacky's Blog, 博客, 个人网站, 個人網站, 互联网, 互聯網, Web, Programming, Competitive Programming, Software Development, Physics, Physical Science, Mathematics, Cryptography, Information Security, CTF, Capture-the-Flag Competition, China Academy of Science, CAS, the United State, USA"
   slogan = "The road is at the foot, the heart is far away"
 
   image_404 = "img/404-bg.jpg"
