@@ -1,5 +1,5 @@
-enableRobotsTXT = true
-baseurl = "https://jackyt.netlify.app"
+#enableRobotsTXT = true
+baseurl = "https://www.cas-usa-physics.org"
 title = "Jacky Tang's blog"
 theme = "cleanwhite"
 languageCode = "en-us"
