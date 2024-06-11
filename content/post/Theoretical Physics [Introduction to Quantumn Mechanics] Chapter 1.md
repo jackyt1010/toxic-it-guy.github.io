@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Self-Education Theoretical Physics [Introduction to Quantumn Mechanics] Chapter 1: The Wave Function"
+title:      "Theoretical Physics [Introduction to Quantumn Mechanics] Chapter 1: The Wave Function"
 subtitle:   ""
 description: ""
 date:     2022-10-09
