@@ -1,12 +1,12 @@
-[submodule "themes/zozo"]
-	path = themes/zozo
-	url = https://github.com/nicolgo/hugo-theme-zozo.git
-[submodule "theme/casper"]
-	path = theme/casper
-	url = https://github.com/vjeantet/hugo-theme-casper
-[submodule "themes/casper"]
-	path = themes/casper
-	url = https://github.com/vjeantet/hugo-theme-casper
-[submodule "themes/cleanwhite"]
-	path = themes/cleanwhite
+[submodule "themes/hugo-nederburg-theme"]
+	path = themes/hugo-nederburg-theme
+	url = https://github.com/appernetic/hugo-nederburg-theme
+[submodule "themes/hugo-theme-cleanwhite"]
+	path = themes/hugo-theme-cleanwhite
 	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+[submodule "static/img"]
+	path = static/img
+	url = https://github.com/zhaohuabing/blog_img.git
+[submodule "static/slides"]
+	path = static/slides
+	url = https://github.com/zhaohuabing/blog_slides.git
