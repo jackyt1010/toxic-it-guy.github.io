@@ -1,1 +1,0 @@
-https://jackyt.netlify.app
