@@ -1,0 +1,12 @@
+[submodule "themes/hugo-nederburg-theme"]
+	path = themes/hugo-nederburg-theme
+	url = https://github.com/appernetic/hugo-nederburg-theme
+[submodule "themes/hugo-theme-cleanwhite"]
+	path = themes/hugo-theme-cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+[submodule "static/img"]
+	path = static/img
+	url = https://github.com/zhaohuabing/blog_img.git
+[submodule "static/slides"]
+	path = static/slides
+	url = https://github.com/zhaohuabing/blog_slides.git
