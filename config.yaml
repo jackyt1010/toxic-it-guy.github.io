@@ -78,10 +78,10 @@ params:
     linkedin: 'https://www.linkedin.com/in/jacky-tang-06642aa6/'
     github: 'https://github.com/jackyt1010'
     wechat: 'https://zhaohuabing.com/img/wechat_qrcode.jpg'
-    medium: 'https://medium.com/@zhaohuabing'
+  #  medium: 'https://medium.com/@zhaohuabing'
   friend_link:
-    - title: Linda的博客
-      href: 'https://zhaozhihan.com'
+   # - title: Linda的博客
+   #   href: 'https://zhaozhihan.com'
     - title: Istio Operation Bible
       href: 'https://unsplash.com/'
   bookmark_link:
