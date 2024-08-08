@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Jacky Tang&#39;s Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="http://localhost:1313///img/background.webp">
+    <meta property="twitter:image" content="http://localhost:1313///img/background.webp" />
+    
+
+    
+    <meta name="title" content="" />
+    <meta property="og:title" content="" />
+    <meta property="twitter:title" content="" />
+    
+
+    
+    <meta name="description" content="鄧文傑，邓文杰, Tang Man Kit, Jacky, Software Engineer, 開源愛好者,Theortical Physics Enthusiast| 這裡是 鄧文傑 的博客，與你一起發現更大的世界。">
+    <meta property="og:description" content="鄧文傑，邓文杰, Tang Man Kit, Jacky, Software Engineer, 開源愛好者,Theortical Physics Enthusiast| 這裡是 鄧文傑 的博客，與你一起發現更大的世界。" />
+    <meta property="twitter:description" content="鄧文傑，邓文杰, Tang Man Kit, Jacky, Software Engineer, 開源愛好者,Theortical Physics Enthusiast| 這裡是 鄧文傑 的博客，與你一起發現更大的世界。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="邓文杰, Tang Man Kit, Tang Man Kit, , 邓文杰的网络日志, 邓文杰的博客, Tang Man Kit Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Tech-鄧文傑的博客 | 邓文杰的博客 | 邓文杰的&#39;s Blog</title>
+
+    <link rel="canonical" href="/categories/tech/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+    
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+    
+</head>
+
+
+
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q13FPWS6LW"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-Q13FPWS6LW');
+        }
+      </script>
+    
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jacky Tang&#39;s Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/books/">books</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/open-source/">open source</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/presentations/">presentations</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/tech/">tech</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/reading//">READING</a></li>
+                    
+                        <li><a href="/travel//">TRAVEL</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
+                    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
+                        <li><a href="/TangManKit_Resume.pdf/">Resume</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/background.webp')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Jacky Tang&#39;s Blog </h1>
+                    
+		    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+  
+<div data-pagefind-ignore="all" class="container">
+    <div class="row">
+        
+        
+   	    <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container
+        ">
+            
+<div data-pagefind-ignore="all">
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-09-10-try-istio-ambient-english/">
+        <h2 class="post-title">
+            Try out Istio Ambient mode
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            Ambient is a new data-plane model that Istio has just announced support for. In this post, we will try to install Istio’s ambient model and use the bookinfo demo to experience the L4 and L7 capabilities offered by ambient. Note: L4 refers to the four layers of the OSI standard network model, i.e., TCP layer processing. L7 refers to layer seven of the OSI
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by Huaing Zhao on Saturday, September 10, 2022
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-09-10-try-istio-ambient/">
+        <h2 class="post-title">
+            初探 Istio Ambient 模式
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            Ambient 是 Istio 刚刚宣布支持的一种新的数据面模式，在本篇文章中，我们将尝试安装 Istio 的 ambient 模式，并采用 bookinfo demo 来体验 ambient 提供的 L4 和 L7 能力。 备注： L4 指 OSI 标准网络模型
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by 赵化冰 on Saturday, September 10, 2022
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-09-09-ambient-mesh-security-deep-dive/">
+        <h2 class="post-title">
+            译文：Istio Ambient 模式安全架构深度解析
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            深入分析刚刚公布的 Istio ambient mesh（Istio 的一个无 sidecar 数据平面）对于服务网格的安全来说意味着什么。 我们最近发布了 Istio ambient mesh，它是 Istio 的一个无 sidecar
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        
+            
+                <a href="https://istio.io/latest/blog/2022/ambient-security/">英文原文</a>
+            
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-09-08-introducing-ambient-mesh/">
+        <h2 class="post-title">
+            译文：重磅消息 - Istio 引入 Ambient Mesh 模式
+        </h2>
+	
+        <h3 class="post-subtitle">
+            Ambient Mesh 模式让服务网格真正成为通信基础设施
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            Istio 于2022年9月7日宣布了一种全新的数据平面模式 “ambient mesh”，简单地讲就是将数据面的代理从应用 pod 中剥离出来独立部署，以彻底解决 mesh 基础设施和应用部署耦合的问题。该变化是 Istio 自创建以来的第二次大的架构变动，也说明 Istio 社区在持续创新，以解决 service mesh 生产中面临的问题。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        
+            
+                <a href="https://istio.io/latest/blog/2022/introducing-ambient-mesh/">英文原文</a>
+            
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-09-06-aeraki-mesh-tracing/">
+        <h2 class="post-title">
+            使用 Aeraki Mesh 实现零代码侵入的 Dubbo 服务调用跟踪
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            分布式追踪（Distributed Tracing）通过对微服务调用链的跟踪，构建一个从服务请求开始到各个微服务交互的全部调用过程的视图。用户可以从中了解到诸如应用调用经过的服务，每个服务的时延，系统的性能瓶颈等等信息。本篇文章将介绍如何通过 Aeraki Mesh 实现 Dubbo 应用程序的分布式调用跟踪，该过程对应用代码完全零侵入。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by     &#34;赵化冰&#34; on Tuesday, September 6, 2022
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-06-30-metaprotocol-proxy-connection-manager/">
+        <h2 class="post-title">
+            MetaProtocol Proxy 代码解读：Connection Manager
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            ConnectionManager 是 MeataProtocol Proxy 的入口类。想要了解 MetaProtocol Proxy 的实现原理，可以从该类着手。 Envoy Network Filter 介绍 MetaProtocol Proxy 框架部分实现为 Envoy 中的一个 Network Filter。Enovy 通过 Listener 接收 Downstream 的连接
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by     &#34;赵化冰&#34; on Thursday, June 30, 2022
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-06-17-aeraki-mesh-cncf-sandbox/">
+        <h2 class="post-title">
+            Aeraki Mesh 正式成为 CNCF 沙箱项目
+        </h2>
+	
+        <h3 class="post-subtitle">
+            新的起点，砥砺前行
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            6月15日，我在创建的 [Aeraki Mesh](https://aeraki.net) 项目通过了全球顶级开源基金会云原生计算基金会（CNCF）技术监督委员会评定，正式成为CNCF 沙箱项目！这意味着 Aeraki Mesh 得到了云原生开源社区的认可，而且加入 CNCF 也保证了项目的中立和开源开放，为 Aeraki Mesh 在云原生生态系统的进一步发展迈出了坚定的一步。感谢来着百度、知乎、灵雀云、腾讯音乐、滴滴、政采云等多家合作伙伴的社区同学的贡献与支持！
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        
+            
+                <a href="https://aeraki.net">官方网站</a>
+            
+        
+            
+                <a href="https://github.com/aeraki-mesh">Github</a>
+            
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-04-26-aeraki-tencent-music-istiocon2022/">
+        <h2 class="post-title">
+            Istiocon 2022 分享：Tencent Music’s service mesh practice with Istio and Aeraki(Istio &#43; Aeraki 在腾讯音乐的服务网格落地)
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            本场分享将介绍腾讯音乐使用 Istio &#43; Aeraki 的服务网格落地实践，主要包含下述内容：如何利用 Aeraki 来扩展 Istio 的协议扩展能力，Aeraki 和 MetaProtocol Proxy 的原理介绍，腾讯音乐如何使用 Istio &#43; Aeraki 来构建一个管理 HTTP 和私有协议的全功能服务网格。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        
+            
+                Virtual 2022/04
+            
+        
+            
+                <a href="https://events.istio.io/istiocon-2022/sessions/tencent-music-aeraki/">活动链接</a>
+            
+        
+            
+                <a href="/slides/tencent-music-service-mesh-practice-with-istio-and-aeraki.pdf">讲稿下载</a>
+            
+        
+            
+                <a href="https://www.bilibili.com/video/BV1sR4y1w7yf">哔哩哔哩</a>
+            
+        
+            
+                <a href="https://youtu.be/HlqND67lVXw">YouTube</a>
+            
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-03-30-aeraki-mesh-winter-olympics-practice/">
+        <h2 class="post-title">
+            腾讯云原生：Areaki Mesh 在 2022 冬奥会视频直播应用中的服务网格实践
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            本次直播分享主要介绍腾讯云服务网格团队开源的 Aeraki Mesh 项目如何通过扩展 Istio 来支持 Thrift，Dubbo 等开源协议以及私有协议，并分享腾讯融媒体采用 Aeraki Mesh 支撑 2022 冬奥会视频直播的实践经验。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        
+            
+                Virtual 2022/03
+            
+        
+            
+                <a href="https://mp.weixin.qq.com/s/zp9q99mGyH2VD9Dij2owWg">活动链接</a>
+            
+        
+            
+                <a href="/img/2022-03-30-aeraki-mesh-winter-olympics-practice/slides.pdf">讲稿下载</a>
+            
+        
+            
+                <a href="https://www.bilibili.com/video/BV1HP4y1M7xw">哔哩哔哩</a>
+            
+        
+            
+                <a href="https://youtu.be/uXxatQTKzW8">YouTube</a>
+            
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://localhost:1313/post/2022-03-02-aeraki-cncf-landscape/">
+        <h2 class="post-title">
+            Aeraki Mesh 加入 CNCF 云原生全景图
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            近日，Aeraki Mesh 正式进入 CNCF 云原生全景图，位于 Service Mesh 类别下，意味着 Aeraki Mesh 成为了 CNCF 认可的构建云原生最佳实践中的一环。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by 赵化冰 on Wednesday, March 2, 2022
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+</div>
+
+            
+
+
+<ul class="pager" data-pagefind-ignore="all">
+    
+    <li class="previous">
+        <a href="/categories/tech/page/3/">&larr; Newer Posts</a>
+    </li>
+    
+    
+    <li class="next">
+        <a href="/categories/tech/page/5/">Older Posts &rarr;</a>
+    </li>
+    
+</ul>
+
+
+       	</div>
+        
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="/img/Jacky.jpg" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>CNCF Ambassador, engineer @tetrate.io, creator @Aeraki Mesh, open-source enthusiast, technical writer and life adventurer</p>
+            
+           
+           <ul class="list-inline">
+               
+               <li>
+                   <a href="mailto:matang3-c@my.cityu.edu.hk">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a href="https://twitter.com/zhaohuabing">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://zhaohuabing.com/img/wechat_qrcode.jpg">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/jackyt1010">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://www.linkedin.com/in/jacky-tang-06642aa6/">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a target="_blank" href="https://medium.com/@zhaohuabing">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                            </span>
+                   </a>
+               </li>
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    <section>
+        <hr>
+        <h5>QUICK LINKS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://aeraki.net/">Aeraki Mesh</a></li>
+            
+            <li><a target="_blank" href="https://www.zhaohuabing.com/istio-guide">Istio 运维实战</a></li>
+            
+            <li><a target="_blank" href="https://unsplash.com/">unsplash</a></li>
+            
+            <li><a target="_blank" href="https://www.pexels.com">pexels</a></li>
+            
+            <li><a target="_blank" href="https://excalidraw.com/">excalidraw</a></li>
+            
+            <li><a target="_blank" href="https://doocs.github.io/md">Markdown Editor</a></li>
+            
+            <li><a target="_blank" href="https://xiaomark.com/">xiaomark</a></li>
+            
+        </ul>
+    </section>
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+                    <a href="/tags/aeraki" title="aeraki">
+                        aeraki
+                    </a>
+               
+            
+               
+                    <a href="/tags/aeraki-mesh" title="aeraki mesh">
+                        aeraki mesh
+                    </a>
+               
+            
+               
+                    <a href="/tags/ambient-mesh" title="ambient mesh">
+                        ambient mesh
+                    </a>
+               
+            
+               
+            
+               
+                    <a href="/tags/api-gateway" title="api gateway">
+                        api gateway
+                    </a>
+               
+            
+               
+                    <a href="/tags/bitcoin" title="bitcoin">
+                        bitcoin
+                    </a>
+               
+            
+               
+                    <a href="/tags/blockchain" title="blockchain">
+                        blockchain
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/cryptocurrency" title="cryptocurrency">
+                        cryptocurrency
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/dubbo" title="dubbo">
+                        dubbo
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/envoy" title="envoy">
+                        envoy
+                    </a>
+               
+            
+               
+                    <a href="/tags/envoy-gateway" title="envoy gateway">
+                        envoy gateway
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/istio" title="istio">
+                        istio
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/kubernetes" title="kubernetes">
+                        kubernetes
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/metaprotocol" title="metaprotocol">
+                        metaprotocol
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/microservice" title="microservice">
+                        microservice
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/onap" title="onap">
+                        onap
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/service-mesh" title="service mesh">
+                        service mesh
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+        </div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>MY BOOKS</h5>
+        <div class="short-about">
+        
+        <a href="https://www.manning.com/bundles/distributed-tracing-ser?utm_source=zhaohuabing&amp;utm_medium=affiliate&amp;utm_campaign=liveproject_zhao_distributed_9_7_21&amp;a_aid=zhaohuabing&amp;a_bid=ce8ffc93">
+            <img src="/img/liveproject.webp" alt="avatar" style="cursor: pointer" />
+        </a>
+        
+        <a href="https://www.zhaohuabing.com/post/2021-08-26-istio-handbook/">
+            <img src="/img/2021-08-26-istio-handbook/book.webp" alt="avatar" style="cursor: pointer" />
+        </a>
+        
+        <a href="https://zhaohuabing.com/post/2021-08-27-cloud-native-data-center/">
+            <img src="/img/cndc.webp" alt="avatar" style="cursor: pointer" />
+        </a>
+        
+        </div>
+    </section>
+    
+</div>
+
+	</div>
+</div>
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    <li>
+                        <a href="mailto:matang3-c@my.cityu.edu.hk">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    <li>
+                        <a href="https://twitter.com/zhaohuabing">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    <li>
+                        <a target="_blank" href="https://zhaohuabing.com/img/wechat_qrcode.jpg">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/jackyt1010">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/jacky-tang-06642aa6/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    <li>
+                        <a target="_blank" href="https://medium.com/@zhaohuabing">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+                   <li>
+                       <a href='/categories/tech/index.xml' rel="alternate" type="application/rss+xml" title="Jacky Tang&#39;s Blog" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Jacky Tang&#39;s Blog 2024
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+       bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else{
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+
+<script>
+    
+    var _baId = 'a1d96090e4189c0376251fb043da7be5';
+
+    
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

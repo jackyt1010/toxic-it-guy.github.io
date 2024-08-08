@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Jacky Tang&#39;s Blog</title>
+    <link>http://localhost:1313/categories/books/</link>
+    <description>Recent content in Books on Jacky Tang&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Istio 运维实战（电子书）</title>
+      <link>http://localhost:1313/post/2021-10-08-istio-operation-bible/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-10-08-istio-operation-bible/</guid>
+      <description>Istio 运维实战 通过将微服务中原本在 SDK 中实现的应用流量管理、可见性、通信安全等服务治理能力下放到一个专门的“服务网格”基础设施中，Istio 解开了</description>
+    </item>
+    <item>
+      <title>Online Lesson: Distributed Tracing with Jaeger, Kubernetes, and Istio</title>
+      <link>http://localhost:1313/post/2021-09-08-distributed-tracing-with-jaeger-kubernetes-and-istio/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-09-08-distributed-tracing-with-jaeger-kubernetes-and-istio/</guid>
+      <description>30% off 👉👉👉 Get this lesson now with my special discount! 30% off 👉👉👉 Get more Manning books with my special discount! 优惠30% 👉👉👉 采用我的专属折扣链接购买本在线课程！ 优惠30% 👉👉👉 采用我的专属折扣链接</description>
+    </item>
+    <item>
+      <title>译著：云原生数据中心网络</title>
+      <link>http://localhost:1313/post/2021-08-27-cloud-native-data-center/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-08-27-cloud-native-data-center/</guid>
+      <description>“浮云飘进我的生活,没有带来雨水或迎来风暴,却为落日的天空增添了色彩” — 泰戈尔，飞鸟集 云计算最大的好处是可以按需使用，按量计费，因此也通常被</description>
+    </item>
+    <item>
+      <title>深入理解 Istio —— 云原生服务网格进阶实战</title>
+      <link>http://localhost:1313/post/2021-08-26-istio-handbook/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-08-26-istio-handbook/</guid>
+      <description>深入理解 Istio —— 云原生服务网格进阶实战 Istio 是由 Google、IBM、Lyft 等共同开源的 Service Mesh（服务网格）框架，于2017年初开始进入大众视</description>
+    </item>
+  </channel>
+</rss>
