@@ -114,12 +114,6 @@ params:
   addtional_menus:
     - title: READING
       href: /reading/
-    - title: TRAVEL
-      href: /travel/
-    - title: NOTES
-      href: /notes/
-    - title: ARCHIVE
-      href: /archive/
     - title: ABOUT
       href: /about/
     - title: Resume
