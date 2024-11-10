@@ -10,9 +10,12 @@
 
 <script>
 const search = instantsearch({
-  appId: '{{ .Site.Params.algolia_appId }}',
+    appId: 'WM4BEY1UDN',
+  indexName: 'blog',
+  apiKey: '090c4a77b8bd4b8d2f2c1262afbc4be2'
+ /* appId: '{{ .Site.Params.algolia_appId }}',
   indexName: '{{ .Site.Params.algolia_indexName }}',
-  apiKey: '{{ .Site.Params.algolia_apiKey }}'
+  apiKey: '{{ .Site.Params.algolia_apiKey }}'*/
 });
 
 const hitTemplate = function(hit) {
