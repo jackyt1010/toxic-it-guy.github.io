@@ -33,8 +33,8 @@ params:
   SEOTitle: 鄧文傑的博客 | 邓文杰的博客 | 邓文杰的's Blog
   description: '鄧文傑，邓文杰, Tang Man Kit, Jacky, Software Engineer, 開源愛好者,Theortical Physics Enthusiast| 這裡是 鄧文傑 的博客，與你一起發現更大的世界。'
   keyword: >-
-    邓文杰, Tang Man Kit, Tang Man Kit, , 邓文杰的网络日志, 邓文杰的博客, Tang Man Kit Blog, 博客,
-    个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice
+    邓文杰, Tang Man Kit, Tang Man Kit, , 邓文杰的网络日志, 邓文杰的博客, Tang Man Kit's Blog, 博客,
+    个人网站, 互联网, Web, 云原生, PaaS, Software Engineer, Kubernetes, 微服务, Microservice
   slogan: 
   image_404: img/404-bg.jpg
   title_404: '你来到了没有知识的荒原 :('
@@ -74,46 +74,32 @@ params:
   social:
     rss: true
     email: matang3-c@my.cityu.edu.hk
-    twitter: 'https://twitter.com/zhaohuabing'
+  #  twitter: 'https://twitter.com/zhaohuabing'
     linkedin: 'https://www.linkedin.com/in/jacky-tang-06642aa6/'
     github: 'https://github.com/jackyt1010'
-    wechat: 'https://zhaohuabing.com/img/wechat_qrcode.jpg'
+  #  wechat: 'https://zhaohuabing.com/img/wechat_qrcode.jpg'
   #  medium: 'https://medium.com/@zhaohuabing'
-  friend_link:
+  #friend_link:
    # - title: Linda的博客
    #   href: 'https://zhaozhihan.com'
-    - title: Istio Operation Bible
-      href: 'https://unsplash.com/'
-  bookmark_link:
-    - title: Aeraki Mesh
-      href: 'https://aeraki.net/'
-    - title: Istio 运维实战
-      href: 'https://www.zhaohuabing.com/istio-guide'
-    - title: unsplash
-      href: 'https://unsplash.com/'
-    - title: pexels
-      href: 'https://www.pexels.com'
-    - title: excalidraw
-      href: 'https://excalidraw.com/'
-    - title: Markdown Editor
-      href: 'https://doocs.github.io/md'
-    - title: xiaomark
-      href: 'https://xiaomark.com/'
-  publications:
-    title: MY BOOKS
-    items:
-      - title: Distributed Tracing with Jaeger, Kubernetes, and Istio
-        image: /img/liveproject.webp
-        href: https://www.manning.com/bundles/distributed-tracing-ser?utm_source=zhaohuabing&utm_medium=affiliate&utm_campaign=liveproject_zhao_distributed_9_7_21&a_aid=zhaohuabing&a_bid=ce8ffc93
-      - title: 深入理解 Istio
-        image: /img/2021-08-26-istio-handbook/book.webp
-        href: https://www.zhaohuabing.com/post/2021-08-26-istio-handbook/
-      - title: 云原生数据中心网络
-        image: /img/cndc.webp
-        href: https://zhaohuabing.com/post/2021-08-27-cloud-native-data-center/
+   # - title: Istio Operation Bible
+   #   href: 'https://unsplash.com/'
+ # bookmark_link:
+   # - title: Aeraki Mesh
+   #   href: 'https://aeraki.net/'
+   # - title: Istio 运维实战
+   #   href: 'https://www.zhaohuabing.com/istio-guide'
+   # - title: unsplash
+   #   href: 'https://unsplash.com/'
+   # - title: pexels
+   #   href: 'https://www.pexels.com'
+   # - title: excalidraw
+   #   href: 'https://excalidraw.com/'
+   # - title: Markdown Editor
+   #   href: 'https://doocs.github.io/md'
+   # - title: xiaomark
+   #   href: 'https://xiaomark.com/'
   addtional_menus:
-    - title: ABOUT
-      href: /about/
     - title: Resume
       href: "TangManKit_Resume.pdf"
   algolia:
