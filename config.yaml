@@ -43,12 +43,12 @@ params:
   leancloud_app_key: efUYEefAc2eIPBRO59PRERQC
   # https://forestry.io/blog/search-with-algolia-in-hugo/
   algolia_search: true
-  algolia_appId: WM4BEY1UDN
-  algolia_indexName: blog
-  algolia_apiKey: 090c4a77b8bd4b8d2f2c1262afbc4be2
+  algolia_appId: 
+  algolia_indexName:
+  algolia_apiKey:
   sidebar_about_description: 'Software Engineer, 開源愛好者,Theortical Physics Enthusiast, technical writer and life adventurer'
   sidebar_avatar: img/TangManKit.jpg
-  featured_tags: true
+  featured_tags: false
   featured_condition_size: 5
   ba_track_id: a1d96090e4189c0376251fb043da7be5
   reward: false
