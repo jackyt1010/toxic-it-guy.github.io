@@ -57,10 +57,10 @@ params:
   bookmarks: true
   about_me: true
   giscus:
-    #data_repo: zhaohuabing/zhaohuabing.github.io
-    data_repo_id: MDEwOlJlcG9zaXRvcnkxMzc3MjcyMjM=
-    data_category: Announcements
-    data_category_id: DIC_kwDOCDWM984CAWAt
+    data_repo: jackyt1010/toxic-it-guy.github.io
+    data_repo_id: 
+    data_category: 
+    data_category_id: 
     data_mapping: pathname
     data_reactions_enabled: '1'
     data_emit_metadata: '0'
