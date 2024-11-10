@@ -74,7 +74,6 @@ params:
   social:
     rss: true
     email: matang3-c@my.cityu.edu.hk
-  #  twitter: 'https://twitter.com/zhaohuabing'
     linkedin: 'https://www.linkedin.com/in/jacky-tang-06642aa6/'
     github: 'https://github.com/jackyt1010'
   #  wechat: 'https://zhaohuabing.com/img/wechat_qrcode.jpg'
