@@ -72,7 +72,7 @@ params:
   # disqus_proxy : 'https://disqusapi.zhaohuabing.com'
   # disqus_site : 'https://zhaohuabing.com'
   social:
-    rss: true
+  #  rss: true
     email: matang3-c@my.cityu.edu.hk
     linkedin: 'https://www.linkedin.com/in/jacky-tang-06642aa6/'
     github: 'https://github.com/jackyt1010'
