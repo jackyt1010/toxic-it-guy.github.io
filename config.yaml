@@ -55,7 +55,7 @@ params:
   reward_guide: 嗯，这篇文章对我有用，鼓励一下...
   friends: false
   bookmarks: false
-  about_me: false
+  about_me: true
   giscus:
     data_repo: jackyt1010/toxic-it-guy.github.io
     data_repo_id: R_kgDOH3wvIw
