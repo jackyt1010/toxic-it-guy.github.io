@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "CSAW CTF Qualification Round 2022 Writeup(Crypto)"
-subtitle:   "CTF"
-description: "CTF"
+subtitle:   ""
+description: ""
 date:     2022-09-17
 published: true
 author:  Jacky Tang
