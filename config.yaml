@@ -1,6 +1,6 @@
 ---
 baseurl: 'https://jackyt.netlify.app'
-title: Jacky Tang's Blog
+title: Blog
 theme: hugo-theme-cleanwhite
 languageCode: en-us
 # disqusShortname: zhaohuabings-blog
@@ -54,8 +54,8 @@ params:
   reward: false
   reward_guide: 嗯，这篇文章对我有用，鼓励一下...
   friends: false
-  bookmarks: true
-  about_me: true
+  bookmarks: false
+  about_me: false
   giscus:
     data_repo: zhaohuabing/zhaohuabing.github.io
     data_repo_id: MDEwOlJlcG9zaXRvcnkxMzc3MjcyMjM=
