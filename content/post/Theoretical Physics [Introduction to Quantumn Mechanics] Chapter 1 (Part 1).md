@@ -11,8 +11,7 @@ tags:
     - Theortical Physics
     - Quantumn Mechanics
 URL: "/2022/10/09/intro-quantumn-mechanics-ch1/"
-katex: true
-markup: 'mmark'
+math: true
 ---
 
 <!--more-->
