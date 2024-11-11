@@ -12,6 +12,7 @@ tags:
     - Quantumn Mechanics
 URL: "/2023/01/07/intro-quantumn-mechanics-ch1-part2/"
 katex: true
+markup: 'mmark'
 ---
 
 <!--more-->
