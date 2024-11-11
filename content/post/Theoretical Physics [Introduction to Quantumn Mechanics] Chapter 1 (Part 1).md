@@ -6,7 +6,7 @@ description: ""
 date:     2022-10-09
 published: true
 author:  Jacky Tang
-categories: [ "Physics", "Mathematics"]
+categories: [ "Physics", "Mathematical Physics"]
 tags:
     - Theortical Physics
     - Quantumn Mechanics

@@ -31,10 +31,10 @@ markup:
 params:
   header_image: /img/background.webp
   SEOTitle: 鄧文傑的博客 | 邓文杰的博客 | 邓文杰的's Blog
-  description: '鄧文傑，邓文杰, Tang Man Kit, Jacky, Software Engineer, 開源愛好者,Theortical Physics Enthusiast| 這裡是 鄧文傑 的博客，與你一起發現更大的世界。'
+  description: '鄧文傑，邓文杰, Tang Man Kit, Jacky, Software Engineer, Open Source Enthusiast,Theortical Physics Enthusiast| 這裡是 鄧文傑 的博客，與你一起發現更大的世界。'
   keyword: >-
-    邓文杰, Tang Man Kit, Tang Man Kit, , 邓文杰的网络日志, 邓文杰的博客, Tang Man Kit's Blog, 博客,
-    个人网站, 互联网, Web, 云原生, PaaS, Software Engineer, Kubernetes, 微服务, Microservice
+    邓文杰, Tang Man Kit, Tang Man Kit, , 邓文杰的网络日志, 邓文杰的博客, Tang Man Kit's Blog, 博客, Physics, Mathematics,
+    个人网站, 互联网, Web, 云原生, PaaS, Software Engineer, Kubernetes, 微服务, Microservice, Computer Science, Open Source
   slogan: 
   image_404: img/404-bg.jpg
   title_404: '你来到了没有知识的荒原 :('
@@ -46,7 +46,7 @@ params:
   algolia_appId: WM4BEY1UDN
   algolia_indexName: blog
   algolia_apiKey: 090c4a77b8bd4b8d2f2c1262afbc4be2
-  sidebar_about_description: 'Software Engineer, 開源愛好者,Theortical Physics Enthusiast, technical writer and life adventurer'
+  sidebar_about_description: 'Software Engineer, Open Source Enthusiast,Theortical Physics Enthusiast, Technical writer and Life adventurer'
   sidebar_avatar: img/TangManKit.jpg
   featured_tags: false
   featured_condition_size: 5
