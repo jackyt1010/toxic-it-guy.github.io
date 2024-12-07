@@ -74,7 +74,7 @@ $$= -i\hbar\int{\frac{\partial Ψ\*}{\partial t} \frac{\partial Ψ}{\partial x} 
 By Schrodinger equation,
 $$\frac{\partial Ψ\*}{\partial t} = -i \frac{\hbar}{2m} \frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*$$
 $$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}} + \frac{i}{\hbar}VΨ\*) \frac{\partial Ψ}{\partial x} + Ψ\*\frac{\partial}{\partial x}( i \frac{\hbar}{2m}\frac{\partial^{2} Ψ}{\partial x^{2}} - \frac{i}{\hbar}VΨ)} dx$$
-$$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}  +  i \frac{\hbar}{2m}\frac{\partial^{3} Ψ}{\partial x^{3}}) + (\frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\partial x}  - \frac{i}{\hbar}Ψ\*\frac{\partial }{\partial x} (VΨ))} dx$$
+$$= -i\hbar\int{(-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}  +  Ψ\*i \frac{\hbar}{2m}\frac{\partial^{3} Ψ}{\partial x^{3}}) + (\frac{i}{\hbar}VΨ\* \frac{\partial Ψ}{\partial x}  - \frac{i}{\hbar}Ψ\*\frac{\partial }{\partial x} (VΨ))} dx$$
 As $$-i\hbar(\int{-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}} dx + \frac{i\hbar}{2m}(Ψ\*\frac{\partial^{2} Ψ}{\partial x^{2}} - \int{\frac{\partial^{2} Ψ}{\partial x^{2}} \frac{\partial Ψ\*}{\partial x}}dx))$$
 $$=-i\hbar(\int{-i \frac{\hbar}{2m}\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}} dx + 0 - \frac{i\hbar}{2m}(\frac{\partial Ψ\}{\partial x}\frac{\partial Ψ\*}{\partial x}\rvert_{-\infty}^{\infty} - \int{\frac{\partial^{2} Ψ\*}{\partial x^{2}}\frac{\partial Ψ}{\partial x}} dx ))$$
 $$=-i\hbar(0+0)=0$$
@@ -111,6 +111,6 @@ $$a\hbar = a\hbar - 2ma^{2}x^{2} + V$$
 $$V=2ma^{2}x^{2}$$
 
   ##  Further Problems For Chapter 1
-![1.14](/img/intro-quantumn-mechanics/1-14.png)$
+![1.14](/img/intro-quantumn-mechanics/1-14.png)
 
 ![1.15](/img/intro-quantumn-mechanics/1-15.png) 
