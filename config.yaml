@@ -6,7 +6,7 @@ languageCode: en-us
 # disqusShortname: zhaohuabings-blog
 googleAnalytics: G-Q13FPWS6LW
 preserveTaxonomyNames: true
-paginate: 10
+paginate: 4
 hasCJKLanguage: true
 outputs:
   home:
