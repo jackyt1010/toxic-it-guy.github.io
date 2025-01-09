@@ -39,9 +39,7 @@
 		    {{ range .Site.Params.addtional_menus }}
                         <li><a href="{{.href | relLangURL}}/">{{.title}}</a></li>
                     {{ end }}
-		            <li>
-                        <a href="{{ "search" | relURL }}"><i class="fa fa-search"></i></a>
-		           </li>
+		          
                 </ul>
             </div>
         </div>

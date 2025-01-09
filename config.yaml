@@ -101,17 +101,17 @@ params:
   addtional_menus:
     - title: Resume
       href: "TangManKit_Resume.pdf"
-  algolia:
-    vars:
-      - title
-      - summary
-      - date
-      - publishdate
-      - expirydate
-      - permalink
-    params:
-      - categories
-      - tags
+  #algolia:
+  #  vars:
+  #    - title
+  #    - summary
+  #    - date
+  #    - publishdate
+  #    - expirydate
+  #    - permalink
+  #  params:
+  #    - categories
+  #    - tags
 
 steps:
 - uses: actions/checkout@v1
