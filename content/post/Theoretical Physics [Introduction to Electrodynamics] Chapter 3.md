@@ -3,7 +3,7 @@ layout:     post
 title:      "Theoretical Physics [Introduction to Electrodynamics] Chapter 3: Speical Techniques"
 subtitle:   ""
 description: ""
-date:     2025-8-20
+date:     2025-08-20
 published: true
 author:  Jacky Tang
 categories: [ "Physics", "Mathematical Physics"]
